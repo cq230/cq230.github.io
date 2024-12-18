@@ -10,9 +10,9 @@ https://cq230.github.io/posts/4d40bec4.html
 https://cq230.github.io/categories/index.html
 https://cq230.github.io/tags/index.html
 https://cq230.github.io/
-https://cq230.github.io/tags/test/
-https://cq230.github.io/tags/%E5%BF%83%E6%83%85%EF%BC%8C%E6%8A%80%E6%9C%AF/
 https://cq230.github.io/tags/node-js/
 https://cq230.github.io/tags/hexo/
+https://cq230.github.io/tags/test/
+https://cq230.github.io/tags/%E5%BF%83%E6%83%85%EF%BC%8C%E6%8A%80%E6%9C%AF/
 https://cq230.github.io/tags/new-tag/
 https://cq230.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0test/
