@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>白开水船长</title>
+  
+  <subtitle>东隅已逝，桑榆非晚</subtitle>
+  <link href="https://cq230.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://cq230.github.io/"/>
+  <updated>2024-12-18T12:35:48.320Z</updated>
+  <id>https://cq230.github.io/</id>
+  
+  <author>
+    <name>Ryan</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test10</title>
+    <link href="https://cq230.github.io/posts/ba55eea9.html"/>
+    <id>https://cq230.github.io/posts/ba55eea9.html</id>
+    <published>2024-12-18T12:21:06.000Z</published>
+    <updated>2024-12-18T12:35:48.320Z</updated>
+    
+    <content type="html"><![CDATA[<p>dd<br>ddaflg[gkogdsogjsgjwp]</p><h1 id="test"><a href="#test" class="headerlink" title="test"></a>test</h1>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;dd&lt;br&gt;ddaflg[gkogdsogjsgjwp]&lt;/p&gt;
+&lt;h1 id=&quot;test&quot;&gt;&lt;a href=&quot;#test&quot; class=&quot;headerlink&quot; title=&quot;test&quot;&gt;&lt;/a&gt;test&lt;/h1&gt;</summary>
+      
+    
+    
+    
+    <category term="学习笔记test" scheme="https://cq230.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0test/"/>
+    
+    
+    <category term="test" scheme="https://cq230.github.io/tags/test/"/>
+    
+    <category term="new tag" scheme="https://cq230.github.io/tags/new-tag/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>test06</title>
+    <link href="https://cq230.github.io/posts/4a2d7add.html"/>
+    <id>https://cq230.github.io/posts/4a2d7add.html</id>
+    <published>2024-12-17T07:17:57.000Z</published>
+    <updated>2024-12-17T07:19:55.945Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="测试06"><a href="#测试06" class="headerlink" title="测试06"></a>测试06</h1><p>f’d’w’f’gear’gfdwfgearggreg<br><strong>testtesttesttesttesttest</strong></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">print(&#x27;testtesttesttesttesttest&#x27;)</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;测试06&quot;&gt;&lt;a href=&quot;#测试06&quot; class=&quot;headerlink&quot; title=&quot;测试06&quot;&gt;&lt;/a&gt;测试06&lt;/h1&gt;&lt;p&gt;f’d’w’f’gear’gfdwfgearggreg&lt;br&gt;&lt;strong&gt;testtesttesttesttesttes</summary>
+      
+    
+    
+    
+    
+    <category term="test" scheme="https://cq230.github.io/tags/test/"/>
+    
+    <category term="new tag" scheme="https://cq230.github.io/tags/new-tag/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>test05</title>
+    <link href="https://cq230.github.io/posts/d3242b67.html"/>
+    <id>https://cq230.github.io/posts/d3242b67.html</id>
+    <published>2024-12-17T07:17:53.000Z</published>
+    <updated>2024-12-17T07:19:55.943Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="测试053425"><a href="#测试053425" class="headerlink" title="测试053425"></a>测试053425</h1><p>f’d’w’f’gear’gfdwfgearggreg<br><strong>testtesttesttesttesttest</strong></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">print(&#x27;testtesttesttesttesttest&#x27;)</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;测试053425&quot;&gt;&lt;a href=&quot;#测试053425&quot; class=&quot;headerlink&quot; title=&quot;测试053425&quot;&gt;&lt;/a&gt;测试053425&lt;/h1&gt;&lt;p&gt;f’d’w’f’gear’gfdwfgearggreg&lt;br&gt;&lt;strong&gt;testtes</summary>
+      
+    
+    
+    
+    
+    <category term="test" scheme="https://cq230.github.io/tags/test/"/>
+    
+    <category term="心情，技术" scheme="https://cq230.github.io/tags/%E5%BF%83%E6%83%85%EF%BC%8C%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>test04</title>
+    <link href="https://cq230.github.io/posts/a4231bf1.html"/>
+    <id>https://cq230.github.io/posts/a4231bf1.html</id>
+    <published>2024-12-17T07:17:49.000Z</published>
+    <updated>2024-12-17T07:19:55.944Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="测试015325"><a href="#测试015325" class="headerlink" title="测试015325"></a>测试015325</h1><p>f’d’w’f’gear’gfdwfgearggreg<br><strong>testtesttesttesttesttest</strong></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">print(&#x27;testtesttesttesttesttest&#x27;)</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;测试015325&quot;&gt;&lt;a href=&quot;#测试015325&quot; class=&quot;headerlink&quot; title=&quot;测试015325&quot;&gt;&lt;/a&gt;测试015325&lt;/h1&gt;&lt;p&gt;f’d’w’f’gear’gfdwfgearggreg&lt;br&gt;&lt;strong&gt;testtes</summary>
+      
+    
+    
+    
+    
+    <category term="test" scheme="https://cq230.github.io/tags/test/"/>
+    
+    <category term="心情，技术" scheme="https://cq230.github.io/tags/%E5%BF%83%E6%83%85%EF%BC%8C%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>test03</title>
+    <link href="https://cq230.github.io/posts/3a478e52.html"/>
+    <id>https://cq230.github.io/posts/3a478e52.html</id>
+    <published>2024-12-17T07:17:45.000Z</published>
+    <updated>2024-12-17T07:19:55.943Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="测试0152352"><a href="#测试0152352" class="headerlink" title="测试0152352"></a>测试0152352</h1><p>f’d’w’f’gear’gfdwfgearggreg<br><strong>testtesttesttesttesttest</strong></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">print(&#x27;testtesttesttesttesttest&#x27;)</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;测试0152352&quot;&gt;&lt;a href=&quot;#测试0152352&quot; class=&quot;headerlink&quot; title=&quot;测试0152352&quot;&gt;&lt;/a&gt;测试0152352&lt;/h1&gt;&lt;p&gt;f’d’w’f’gear’gfdwfgearggreg&lt;br&gt;&lt;strong&gt;tes</summary>
+      
+    
+    
+    
+    
+    <category term="test" scheme="https://cq230.github.io/tags/test/"/>
+    
+    <category term="心情，技术" scheme="https://cq230.github.io/tags/%E5%BF%83%E6%83%85%EF%BC%8C%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>test02</title>
+    <link href="https://cq230.github.io/posts/4d40bec4.html"/>
+    <id>https://cq230.github.io/posts/4d40bec4.html</id>
+    <published>2024-12-17T07:17:42.000Z</published>
+    <updated>2024-12-17T07:19:55.941Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="测试01431241"><a href="#测试01431241" class="headerlink" title="测试01431241"></a>测试01431241</h1><p>f’d’w’f’gear’gfdwfgearggreg<br><strong>testtesttesttesttesttest</strong></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">print(&#x27;testtesttesttesttesttest&#x27;)</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;测试01431241&quot;&gt;&lt;a href=&quot;#测试01431241&quot; class=&quot;headerlink&quot; title=&quot;测试01431241&quot;&gt;&lt;/a&gt;测试01431241&lt;/h1&gt;&lt;p&gt;f’d’w’f’gear’gfdwfgearggreg&lt;br&gt;&lt;strong</summary>
+      
+    
+    
+    
+    
+    <category term="test" scheme="https://cq230.github.io/tags/test/"/>
+    
+    <category term="心情，技术" scheme="https://cq230.github.io/tags/%E5%BF%83%E6%83%85%EF%BC%8C%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>test01</title>
+    <link href="https://cq230.github.io/posts/d449ef7e.html"/>
+    <id>https://cq230.github.io/posts/d449ef7e.html</id>
+    <published>2024-12-17T07:09:51.000Z</published>
+    <updated>2024-12-17T11:54:36.318Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="测试01"><a href="#测试01" class="headerlink" title="测试01"></a>测试01</h1><p>f’d’w’f’gear’gfdwfgearggreg<br><strong>testtesttesttesttesttest</strong></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">print(&#x27;testtesttesttesttesttest&#x27;)</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;测试01&quot;&gt;&lt;a href=&quot;#测试01&quot; class=&quot;headerlink&quot; title=&quot;测试01&quot;&gt;&lt;/a&gt;测试01&lt;/h1&gt;&lt;p&gt;f’d’w’f’gear’gfdwfgearggreg&lt;br&gt;&lt;strong&gt;testtesttesttesttesttes</summary>
+      
+    
+    
+    
+    
+    <category term="test" scheme="https://cq230.github.io/tags/test/"/>
+    
+    <category term="心情，技术" scheme="https://cq230.github.io/tags/%E5%BF%83%E6%83%85%EF%BC%8C%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://cq230.github.io/posts/4a17b156.html"/>
+    <id>https://cq230.github.io/posts/4a17b156.html</id>
+    <published>2024-06-26T09:00:00.000Z</published>
+    <updated>2024-12-17T11:51:40.989Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><p><img src="https://cloudflare-imgbed-ebz.pages.dev/file/1731757669045_IMG_0545.jpeg" alt="test img"></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p><img src="https://cloudflare-imgbed-ebz.pages.dev/file/1733737357008_bingimg_20241209_UHD.jpg" alt="test img"></p><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    <category term="学习笔记test" scheme="https://cq230.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0test/"/>
+    
+    
+    <category term="node.js" scheme="https://cq230.github.io/tags/node-js/"/>
+    
+    <category term="hexo" scheme="https://cq230.github.io/tags/hexo/"/>
+    
+    <category term="test" scheme="https://cq230.github.io/tags/test/"/>
+    
+  </entry>
+  
+</feed>
