@@ -6,7 +6,7 @@
   <link href="https://cq230.github.io/atom.xml" rel="self"/>
   
   <link href="https://cq230.github.io/"/>
-  <updated>2024-12-20T10:55:34.179Z</updated>
+  <updated>2024-12-20T10:59:18.425Z</updated>
   <id>https://cq230.github.io/</id>
   
   <author>
@@ -17,19 +17,19 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>static</title>
+    <title>Java-static</title>
     <link href="https://cq230.github.io/posts/80c02825.html"/>
     <id>https://cq230.github.io/posts/80c02825.html</id>
     <published>2022-03-13T09:43:32.000Z</published>
-    <updated>2024-12-20T10:55:34.179Z</updated>
+    <updated>2024-12-20T10:59:18.425Z</updated>
     
-    <content type="html"><![CDATA[<h4 id="1-静态方法调用"><a href="#1-静态方法调用" class="headerlink" title="1.静态方法调用"></a>1.静态方法调用</h4><p>直接<strong>类名.方法名</strong>调用</p><h4 id="2-非静态方法调用"><a href="#2-非静态方法调用" class="headerlink" title="2.非静态方法调用"></a>2.非静态方法调用</h4><p>需要实例化对应的类来调用</p><h4 id="3-注意事项"><a href="#3-注意事项" class="headerlink" title="3.注意事项"></a>3.注意事项</h4><ul><li><p>因为static和非static类型的方法加载时间不同，因此static类型的方法<strong>无法</strong>调用<strong>非static类型的方法或属性</strong></p></li><li><p>创建了类的多个对象后，多个对象<strong>共享</strong>同一个静态变量；当某一个对象修改了该静态变量后，会导致其他对象<strong>再</strong>调用该静态变量时，是修改过的。（在修改之前调用静态变量则是修改之前的值）</p></li><li><p>static方法中，不能使用this、super关键字</p></li><li><p>static类型的结构随着类的加载而加载</p></li><li><p>静态结构前没有声明的都是省略的 <strong>“类名.”</strong></p></li></ul>]]></content>
+    <content type="html"><![CDATA[<h4 id="1-静态方法调用"><a href="#1-静态方法调用" class="headerlink" title="1.静态方法调用"></a>1.静态方法调用</h4><p>直接 <em>类名.方法名</em> 调用</p><h4 id="2-非静态方法调用"><a href="#2-非静态方法调用" class="headerlink" title="2.非静态方法调用"></a>2.非静态方法调用</h4><p>需要实例化对应的类来调用</p><h4 id="3-注意事项"><a href="#3-注意事项" class="headerlink" title="3.注意事项"></a>3.注意事项</h4><ul><li><p>因为static和非static类型的方法加载时间不同，因此static类型的方法<strong>无法</strong>调用<strong>非static类型的方法或属性</strong></p></li><li><p>创建了类的多个对象后，多个对象<strong>共享</strong>同一个静态变量；当某一个对象修改了该静态变量后，会导致其他对象<strong>再</strong>调用该静态变量时，是修改过的。（在修改之前调用静态变量则是修改之前的值）</p></li><li><p>static方法中，不能使用this、super关键字</p></li><li><p>static类型的结构随着类的加载而加载</p></li><li><p>静态结构前没有声明的都是省略的 <strong>“类名.”</strong></p></li></ul>]]></content>
     
     
       
       
-    <summary type="html">&lt;h4 id=&quot;1-静态方法调用&quot;&gt;&lt;a href=&quot;#1-静态方法调用&quot; class=&quot;headerlink&quot; title=&quot;1.静态方法调用&quot;&gt;&lt;/a&gt;1.静态方法调用&lt;/h4&gt;&lt;p&gt;直接&lt;strong&gt;类名.方法名&lt;/strong&gt;调用&lt;/p&gt;
-&lt;h4 id=&quot;2-非静态方</summary>
+    <summary type="html">&lt;h4 id=&quot;1-静态方法调用&quot;&gt;&lt;a href=&quot;#1-静态方法调用&quot; class=&quot;headerlink&quot; title=&quot;1.静态方法调用&quot;&gt;&lt;/a&gt;1.静态方法调用&lt;/h4&gt;&lt;p&gt;直接 &lt;em&gt;类名.方法名&lt;/em&gt; 调用&lt;/p&gt;
+&lt;h4 id=&quot;2-非静态方法调用&quot;&gt;&lt;</summary>
       
     
     
