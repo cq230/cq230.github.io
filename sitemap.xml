@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://cq230.github.io/posts/9a542ee1.html</loc>
+    
+    <lastmod>2024-12-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://cq230.github.io/categories/index.html</loc>
     
     <lastmod>2024-12-20</lastmod>
@@ -131,6 +140,27 @@
   </url>
   
   <url>
+    <loc>https://cq230.github.io/tags/Java/</loc>
+    <lastmod>2024-12-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://cq230.github.io/tags/Java-%E5%85%B3%E9%94%AE%E5%AD%97/</loc>
+    <lastmod>2024-12-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://cq230.github.io/tags/Java-%E5%9F%BA%E7%A1%80/</loc>
+    <lastmod>2024-12-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://cq230.github.io/tags/%E5%BF%83%E6%83%85%EF%BC%8C%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2024-12-20</lastmod>
     <changefreq>weekly</changefreq>
@@ -148,6 +178,13 @@
   
   <url>
     <loc>https://cq230.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0test/</loc>
+    <lastmod>2024-12-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://cq230.github.io/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2024-12-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
