@@ -128,27 +128,6 @@
 
   
   <url>
-    <loc>https://cq230.github.io/tags/Java/</loc>
-    <lastmod>2024-12-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://cq230.github.io/tags/Java-%E5%85%B3%E9%94%AE%E5%AD%97/</loc>
-    <lastmod>2024-12-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://cq230.github.io/tags/Java-%E5%9F%BA%E7%A1%80/</loc>
-    <lastmod>2024-12-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://cq230.github.io/tags/node-js/</loc>
     <lastmod>2024-12-20</lastmod>
     <changefreq>weekly</changefreq>
@@ -164,6 +143,27 @@
   
   <url>
     <loc>https://cq230.github.io/tags/test/</loc>
+    <lastmod>2024-12-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://cq230.github.io/tags/Java/</loc>
+    <lastmod>2024-12-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://cq230.github.io/tags/Java-%E5%85%B3%E9%94%AE%E5%AD%97/</loc>
+    <lastmod>2024-12-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://cq230.github.io/tags/Java-%E5%9F%BA%E7%A1%80/</loc>
     <lastmod>2024-12-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -186,14 +186,14 @@
 
   
   <url>
-    <loc>https://cq230.github.io/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/</loc>
+    <loc>https://cq230.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0test/</loc>
     <lastmod>2024-12-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://cq230.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0test/</loc>
+    <loc>https://cq230.github.io/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2024-12-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
