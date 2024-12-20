@@ -11,24 +11,6 @@
   </url>
   
   <url>
-    <loc>https://cq230.github.io/posts/545b8f85.html</loc>
-    
-    <lastmod>2024-12-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://cq230.github.io/posts/cd52de3f.html</loc>
-    
-    <lastmod>2024-12-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://cq230.github.io/categories/index.html</loc>
     
     <lastmod>2024-12-20</lastmod>
@@ -47,70 +29,7 @@
   </url>
   
   <url>
-    <loc>https://cq230.github.io/posts/4a2d7add.html</loc>
-    
-    <lastmod>2024-12-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://cq230.github.io/posts/ba55eea9.html</loc>
-    
-    <lastmod>2024-12-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://cq230.github.io/link/index.html</loc>
-    
-    <lastmod>2024-12-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://cq230.github.io/posts/d449ef7e.html</loc>
-    
-    <lastmod>2024-12-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://cq230.github.io/posts/4a17b156.html</loc>
-    
-    <lastmod>2024-12-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://cq230.github.io/posts/3a478e52.html</loc>
-    
-    <lastmod>2024-12-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://cq230.github.io/posts/d3242b67.html</loc>
-    
-    <lastmod>2024-12-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://cq230.github.io/posts/4d40bec4.html</loc>
     
     <lastmod>2024-12-17</lastmod>
     
@@ -126,27 +45,6 @@
     <priority>1.0</priority>
   </url>
 
-  
-  <url>
-    <loc>https://cq230.github.io/tags/node-js/</loc>
-    <lastmod>2024-12-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://cq230.github.io/tags/hexo/</loc>
-    <lastmod>2024-12-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://cq230.github.io/tags/test/</loc>
-    <lastmod>2024-12-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
   
   <url>
     <loc>https://cq230.github.io/tags/Java/</loc>
@@ -170,27 +68,13 @@
   </url>
   
   <url>
-    <loc>https://cq230.github.io/tags/%E5%BF%83%E6%83%85%EF%BC%8C%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2024-12-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://cq230.github.io/tags/new-tag/</loc>
+    <loc>https://cq230.github.io/tags/%E7%BC%96%E7%A8%8B/</loc>
     <lastmod>2024-12-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
 
-  
-  <url>
-    <loc>https://cq230.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0test/</loc>
-    <lastmod>2024-12-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
   
   <url>
     <loc>https://cq230.github.io/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/</loc>
