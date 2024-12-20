@@ -25,4 +25,6 @@ https://cq230.github.io/tags/Java/
 https://cq230.github.io/tags/Java-%E5%9F%BA%E7%A1%80/
 https://cq230.github.io/tags/%E7%BC%96%E7%A8%8B/
 https://cq230.github.io/tags/Java-%E5%85%B3%E9%94%AE%E5%AD%97/
+https://cq230.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/
+https://cq230.github.io/tags/MySQL/
 https://cq230.github.io/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/
