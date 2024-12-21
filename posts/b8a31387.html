@@ -1,0 +1,1312 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><title>Excel使用技巧 | 白开水船长</title><meta name="keywords" content="Excel,工具"><meta name="author" content="白开水船长"><meta name="copyright" content="白开水船长"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#f7f9fe"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-touch-fullscreen" content="yes"><meta name="apple-mobile-web-app-title" content="Excel使用技巧"><meta name="application-name" content="Excel使用技巧"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="#f7f9fe"><meta property="og:type" content="article"><meta property="og:title" content="Excel使用技巧"><meta property="og:url" content="https://cq230.github.io/posts/b8a31387.html"><meta property="og:site_name" content="白开水船长"><meta property="og:description" content="一、Excel 常用操作   功能 操作    启用或关闭筛选功能 Ctrl + Shift + L   移动列 选中全列，按住 Shift 键，鼠标在列边缘拖动至目标列   快速到最后一行 选中一个单元格，鼠标双击单元格下边框，最上一行同理   删除所有右边列 选中目标列，Ctrl + Shift"><meta property="og:locale" content="zh-CN"><meta property="og:image" content="https://bing.ee123.net/img/rand?_r_=e510b8bf-1bd3-96ae-f9e9-4625cd12bc35"><meta property="article:author" content="白开水船长"><meta property="article:tag"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://bing.ee123.net/img/rand?_r_=e510b8bf-1bd3-96ae-f9e9-4625cd12bc35"><meta name="description" content="一、Excel 常用操作   功能 操作    启用或关闭筛选功能 Ctrl + Shift + L   移动列 选中全列，按住 Shift 键，鼠标在列边缘拖动至目标列   快速到最后一行 选中一个单元格，鼠标双击单元格下边框，最上一行同理   删除所有右边列 选中目标列，Ctrl + Shift"><link rel="shortcut icon" href="/img/favicon.ico"><link rel="canonical" href="https://cq230.github.io/posts/b8a31387.html"><link rel="preconnect" href="//cdn.cbd.int"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="google-site-verification" content="xxx"/><meta name="baidu-site-verification" content="code-xxx"/><meta name="msvalidate.01" content="xxx"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.cbd.int/@fancyapps/ui@5.0.28/dist/fancybox/fancybox.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  linkPageTop: undefined,
+  peoplecanvas: undefined,
+  postHeadAiDescription: {"enable":true,"gptName":"AnZhiYu","mode":"local","switchBtn":false,"btnLink":"https://afdian.net/item/886a79d4db6711eda42a52540025c377","randomNum":3,"basicWordCount":1000,"key":"xxxx","Referer":"https://xx.xx/"},
+  diytitle: undefined,
+  LA51: undefined,
+  greetingBox: undefined,
+  twikooEnvId: 'https://myhexotwikoo.netlify.app/.netlify/functions/twikoo',
+  commentBarrageConfig:undefined,
+  music_page_default: "nav_music",
+  root: '/',
+  preloader: {"source":3},
+  friends_vue_info: undefined,
+  navMusic: false,
+  mainTone: undefined,
+  authorStatus: {"skills":["🤖️ 数码科技爱好者","🔍 分享与热心帮助","🏠 智能家居小能手","🔨 设计开发一条龙","🤝 专修交互与设计","🏃 脚踏实地行动派","🧱 团队小组发动机","💢 壮汉人狠话不多"]},
+  algolia: {"appId":"M1B8F6JERF","apiKey":"d4d213f540a2bb98cea2b27dc9150037","indexName":"hexo","hits":{"per_page":6},"languages":{"input_placeholder":"输入关键词后按下回车查找","hits_empty":"找不到您查询的内容：${query}","hits_stats":"找到 ${hits} 条结果，用时 ${time} 毫秒"}},
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"简","rightMenuMsgToTraditionalChinese":"转为繁体","rightMenuMsgToSimplifiedChinese":"转为简体"},
+  noticeOutdate: {"limitDay":365,"position":"top","messagePrev":"距离上次更新已经过去了","messageNext":"天。"},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":330},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    simplehomepage: true,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"copy":true,"copyrightEbable":false,"limitCount":50,"languages":{"author":"作者: 白开水船长","link":"链接: ","source":"来源: 白开水船长","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。","copySuccess":"复制成功，复制和转载请标注本文地址"}},
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#425AEF","bgDark":"#1f1f1f","position":"top-center"},
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.cbd.int/flickr-justified-gallery@2.1.2/dist/fjGallery.min.js',
+      css: 'https://cdn.cbd.int/flickr-justified-gallery@2.1.2/dist/fjGallery.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isAnchor: false,
+  shortcutKey: undefined,
+  autoDarkmode: true
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  configTitle: '白开水船长',
+  title: 'Excel使用技巧',
+  postAI: '',
+  pageFillDescription: '一、Excel 常用操作, 二、EDATE amp DATE, 1. EDATE 函数, 语法：, 示例：, 常见应用：, 2. DATE 函数, 语法：, 示例：, 特殊情况：, 常见应用：, 3.总结对比：, 三、SUM amp SUBTOTAL, 1. SUM 函数, 语法：, 示例：, 特点：, 2. SUBTOTAL 函数, 语法：, 示例：, 常见的 function_num 参数：, 示例：不同功能的 function_num, 3. SUM 与 SUBTOTAL 的区别, 4. SUBTOTAL 更高效的使用场景：, 5.总结：, 四、SUMIF amp SUMIFS, 1. SUMIF 函数, 语法：, 示例：, 常见用法：, 2. SUMIFS 函数, 语法：, 示例：, 常见用法：, SUMIF 与 SUMIFS 的区别, 示例比较：, 使用 SUMIF：, 使用 SUMIFS：, 3.总结：, 五、VLOOKUP, 1. VLOOKUP 函数简介, 语法：, 2. VLOOKUP 示例, 查找员工ID为 1003 的姓名, 查找员工ID为 1005 的姓名（不存在该ID）, 3. 使用 VLOOKUP 时的注意事项, 3.1. 查找值必须位于 table_array 的第一列, 3.2. 近似匹配（TRUE 或省略）, 3.3. 精确匹配（FALSE）, 3.4. 列号必须大于等于 2, 3.5. VLOOKUP 的限制, 4. VLOOKUP 的常见应用场景, 4.1. 查找价格, 4.2. 查找员工的部门, 4.3. 使用 VLOOKUP 进行评分查询, 5. 总结, 六、INDEX amp MATCH, INDEX 和 MATCH 函数介绍, 1. INDEX 函数, 数组形式（最常用）, 示例 1：从单列数组中提取一个值, 示例 2：从二维数组中提取一个值, 2. MATCH 函数, 语法：, 示例：查找某个值的位置信息, 3. INDEX 和 MATCH 组合使用, 例子：通过 INDEX 和 MATCH 查找员工的部门, 例子：通过 INDEX 和 MATCH 查找指定员工的姓名, 4. INDEX 和 MATCH 的优点, 5. 总结一常用操作功能操作启用或关闭筛选功能移动列选中全列按住键鼠标在列边缘拖动至目标列快速到最后一行选中一个单元格鼠标双击单元格下边框最上一行同理删除所有右边列选中目标列选中并手动删除删除全部下边行同理复制填充行选中目标单元格复制填充列选中目标单元格填充序号单元格填选中单元格鼠标点住单元格右下角拖动复制填充合并单元格选中目标单元格在上方填入值星期几选中单元格设置单元格格式数字自定义填确定周几选中单元格设置单元格格式数字自定义填周确定文本转日期格式选中单元格数据分列固定宽度下一步下一步日期完成数字加上单位不影响计算选中单元格设置单元格格式数字自定义在对应格式后面加单位确定尽量不要用中的日期格式存储日期数据用字符串格式二在中和是两个常用的日期函数它们具有不同的功能下面是对它们的详细解释函数函数用于返回从给定日期起按月数偏移的日期语法起始日期可以是一个日期值或一个包含日期的单元格偏移的月份数如果是正数返回的是未来的日期如果是负数返回的是过去的日期示例假设单元格包含日期年月日你想要知道从这个日期起个月之后是何时公式结果年月日因为个月后是年月日如果想要返回个月之前的日期可以使用负数结果年月日常见应用用于计算发票到期日例如天天天后的日期用于按月份推算业务周期或贷款期限函数函数用于根据指定的年份月份和日期来返回一个日期值语法年份通常是一个四位数的年份例如月份可以是到的数字或使用负数和大于的数来跨年计算月份日期表示该月份中的具体日期通常是到示例假设你想根据年份月份日期来生成一个日期公式结果年月日特殊情况如果超过或为负数会自动处理年份的溢出例如结果年月日因为月是年的第个月月如果超过了该月的最大日期会自动调整日期例如结果年月日因为年月只有天天会被自动调整为月日常见应用用于创建特定日期或者从年月日等不同数据源构造日期用于日期的计算和比较尤其是在涉及多个字段的日期时总结对比功能功能描述按指定的月份偏移返回日期根据年月日构造一个日期用法用于计算偏移的日期加减月数用于根据年份月份和日期创建日期参数起始日期月份偏移正负整数年份月份日期示例当前日期加个月年月日应用场景计算未来或过去的日期按月根据年月日创建特定日期这两个函数都是处理日期的常用工具选择哪一个取决于具体需求如果你需要按月推算日期使用如果你需要根据年月日来生成特定日期使用按月推算日期使用或按天数推算日期使用或计算日期差异使用或三在中和都是常用的数学函数用于对一组数字进行求和它们的主要区别在于如何处理数据范围和隐藏行以下是详细的比较和说明函数是中最基本的求和函数旨在对指定的数字范围进行简单的求和语法要相加的数字或单元格范围示例假设你有一个数据范围其中包含数字和结果特点函数会对所有可见和隐藏的单元格进行求和即使这些行被隐藏如通过过滤或手动隐藏也会将其包括在求和中它适用于所有需要对一系列数值进行加总的情况函数函数更为灵活除了可以执行求和外还能进行其他统计计算的一个显著特性是它可以忽略被隐藏的行如果你使用自动筛选或手动隐藏了行时只对可见的数据进行操作语法一个数字指定要使用的汇总函数对于求和应设置为或表示求和包括隐藏的行表示求和忽略隐藏的行要进行汇总的范围可以是单元格范围或多个范围示例假设你有一个数据范围其中包含数字和并且行被隐藏如果你使用来计算求和并忽略隐藏的行例如使用过滤或手动隐藏行结果将是因为第行数字被隐藏忽略了这行如果你使用表示包括隐藏行的求和结果将是即使第行被隐藏也会计算所有行常见的参数平均值计数非空单元格计数求和最大值最小值示例不同功能的求和包括隐藏行求和忽略隐藏行平均值包括隐藏行平均值忽略隐藏行与的区别特性功能求和指定范围内所有单元格的值既可以求和又可以进行多种统计如平均计数最大值等忽略隐藏行不会忽略隐藏的行可以根据的选择选择忽略或不忽略隐藏行适用场景需要对所有数据进行求和包括隐藏数据需要对可见数据进行求和或其他统计操作尤其是当使用自动筛选或手动隐藏行时常见用途对一组数值进行简单求和在有过滤数据时统计可见数据的求和或其他汇总操作函数的灵活性只有求和功能可根据实现多种统计功能如平均值计数最大最小值等更高效的使用场景当你有一个通过筛选或手动隐藏行的表格时会忽略隐藏的行这对于避免错误的计算结果很有帮助例如当你对销售数据进行筛选时只希望对筛选出的可见的数据进行求和而不包括被隐藏的数据行这时使用比使用更为合适总结使用时它会对所有数据包括隐藏的行进行求和适用于需要对整个数据范围求和的场景使用时你可以选择是否忽略隐藏的行并且它支持更多的统计功能特别适用于有筛选或隐藏行的情况四在中和函数都用于条件求和但它们在使用上有一些不同下面是对这两个函数的详细解释函数用于在满足指定条件时对范围内的数值进行求和它只接受一个条件进行判断适用于简单的单一条件求和语法要应用条件的单元格范围条件可以是一个数值表达式文本甚至是一个单元格引用可选实际要求和的范围如果省略则默认使用作为要求和的范围示例假设在中是销售员姓名在中是他们对应的销售额你想要求和销售员张三的销售额列列销售员销售额张三李四张三王五张三公式张三结果因为张三在中对应的销售额是常见用法使用进行单一条件求和例如求和大于某个值等于某个值包含特定文本等支持以下条件表达式数字例如大于文本例如张三等于张三通配符匹配一个字符匹配多个字符函数是的扩展允许使用多个条件来进行求和你可以对多个范围应用条件只有当所有条件都满足时才会进行求和语法实际要求和的单元格范围第一个条件范围第一个条件可选第二个条件范围及条件可以有多个条件范围和条件示例假设在中是销售员姓名在中是销售额在中是销售的月份你想要求和张三在月的销售额列列列销售员销售额月份张三月李四月张三月王五月张三月公式张三月结果因为只有在张三并且在月时销售额才会被加总常见用法使用进行多个条件的求和例如求和在特定日期特定销售员特定产品等情况下的销售额支持条件的比较运算符数字等文本例如张三日期例如等通配符和与的区别特性条件数量只能处理一个条件可以处理多个条件条件范围只有一个条件范围可以指定多个条件范围每个条件范围对应一个条件语法条件表达式支持简单的单一条件数字文本比较运算符等支持多个条件可以按多个标准进行过滤适用场景单一条件求和如计算某个销售员的总销售额多条件求和如计算某销售员在某月的销售额示例比较假设你有一个销售表包含销售员销售额和月份表格如下销售员销售额月份张三月李四月张三月王五月张三月使用假设你只想计算张三的总销售额张三结果使用假设你想计算张三在月的销售额张三月结果总结使用时只能处理单一条件的求和适用于较简单的求和场景使用时可以处理多个条件的求和适用于需要根据多个条件进行筛选和求和的复杂场景希望这能帮助你更好地理解和的区别和使用场景五是中常用的查找函数之一用于在一个数据表中根据某个条件查找值并返回该值所在行的其他列的数据它非常适合用于基于某个关键字从大型数据表中检索相关信息函数简介的全称是意思是垂直查找它在数据表的第一列中查找一个值然后返回该值所在行其他列的内容语法你想要查找的值可以是单元格引用或具体的数值或文本查找的范围或表格查找值将从这一范围的第一列开始查找返回的值所在列的列号列号是相对于的第一列而言的例如表示的第一列表示第二列依此类推可选参数决定是否进行近似匹配或省略进行近似匹配默认如果没有精确匹配则返回小于的最大值进行精确匹配如果找不到精确匹配返回错误示例假设你有一个员工信息表包含员工的姓名部门等信息你希望根据员工的查找对应的姓名员工姓名部门张三财务部李四市场部王五销售部赵六人事部查找员工为的姓名公式解释查找值是查找的范围是到返回查找值所在行的第列即姓名列精确匹配只有找到员工为时才会返回姓名结果王五查找员工为的姓名不存在该公式结果因为找不到为的员工使用时的注意事项查找值必须位于的第一列总是从的第一列开始查找因此查找值必须在的第一列否则无法工作近似匹配或省略如果为或省略会执行近似匹配此时查找值必须按升序排列否则可能得到不准确的结果如果你希望进行近似匹配例如查找一个介于两个值之间的值请确保查找列已按升序排列近似匹配的常见用途包括计算税率表价格表等精确匹配如果为将执行精确匹配如果查找值没有找到将返回错误列号必须大于等于只能返回查找值所在行的后续列的数据即必须大于等于如果你想返回查找列的值通常会使用和函数的组合的限制只能查找左侧的列不能反向查找例如你不能在表格的最后一列查找某个值并返回第一列的结果它只能返回一列数据如果你需要从多个列中返回结果可以使用多次或者考虑其他函数组合如和的常见应用场景查找价格假设你有一个商品价格表想根据商品查找对应商品的价格商品商品名称单价商品元商品元商品元公式结果元返回商品的价格查找员工的部门假设你有一个员工表根据员工查找其所属的部门员工姓名部门张三财务部李四市场部王五销售部赵六人事部公式结果市场部返回员工为的部门使用进行评分查询假设你有一个分数等级表根据学生的分数返回相应的等级分数范围等级公式结果因为分落在区间总结是一个强大的查找工具适用于从一个数据表中根据条件查找数据并返回相关信息它只能在查找值的左侧列进行查找并且只能返回查找值所在行的后续列数据需要确保查找表格的排列和选择适当的匹配类型精确或近似匹配六和函数介绍和函数是中非常强大的函数可以单独使用也可以结合起来使用完成更为复杂和灵活的查找操作与传统的或不同和提供了更高的灵活性和效率尤其是在处理大数据集时能够解决无法处理的一些问题下面我将分别介绍这两个函数并详细说明它们如何结合使用函数函数用于从一个数据范围中返回一个值基于给定的行号和列号它有两种使用方式数组形式和引用形式数组形式最常用包含数据的数组或数据范围数据范围中的行号用于指定要返回的值所在的行可选数据范围中的列号用于指定要返回的值所在的列如果是单列或单行数据则可以省略此项示例从单列数组中提取一个值假设有如下商品列表商品商品商品商品商品你想返回第三行即商品公式是数据范围是行号表示返回第三行的值结果商品示例从二维数组中提取一个值假设有如下员工信息表员工姓名部门张三财务部李四市场部王五销售部赵六人事部你希望返回第二行第三列的值即第二个员工的部门公式是数据范围是行号表示第二行是列号表示第三列部门列结果市场部函数函数用于在指定的范围中查找某个值并返回该值的相对位置与不同只返回位置索引不返回实际的值语法你要查找的值可以是一个具体的数值文本或者单元格引用包含要查找值的数组或范围可选指定匹配的类型默认查找小于或等于的最大值要求按升序排列查找精确匹配的值查找大于或等于的最小值要求按降序排列示例查找某个值的位置信息假设有如下员工信息表员工姓名部门张三财务部李四市场部王五销售部赵六人事部你希望找出王五在表中的位置公式王五王五是查找值是包含姓名的范围表示进行精确匹配结果即王五在第行和组合使用和的组合使用能实现更灵活和强大的查找功能通过使用查找行号或列号可以根据这个位置返回对应的数据结合和可以克服的一些限制比如只能在查找表的第一列查找例子通过和查找员工的部门假设你有一个员工信息表如下所示员工姓名部门张三财务部李四市场部王五销售部赵六人事部你希望根据员工的姓名查找其所属的部门步骤使用查找姓名所在行号使用根据行号返回部门公式王五王五返回王五在姓名列中的位置即第行根据行号从部门列列中返回对应的部门结果销售部例子通过和查找指定员工的姓名如果你要根据员工查找对应的姓名可以使用类似的组合假设你有一个员工列列和姓名列列员工姓名张三李四王五赵六你希望根据员工查找姓名假设要查找员工为的姓名步骤使用查找员工所在的行号使用根据行号返回姓名公式查找员工在列的位置即第行返回该行对应的姓名即第行的姓名王五结果王五和的优点灵活性和组合可以从任何位置包括不在第一列的地方查找数据而只能从数据范围的第一列查找效率在处理非常大的数据集时和的组合通常比更高效尤其是在数据列数很大时支持横向查找是纵向查找是横向查找而和可以在任何方向上查找数据提供更多的灵活性总结用于返回数组中指定位置的值用于查找某个值在数组中的位置和的组合提供了比更强大和灵活的查找能力尤其是在处理复杂的数据结构时通过将和组合使用可以进行灵活的数据查找和返回操作弥补了和函数的一些局限性',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2024-12-21 20:09:48',
+  postMainColor: '',
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#18171d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#f7f9fe')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+          const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+          const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+          const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+          if (t === undefined) {
+            if (isLightMode) activateLightMode()
+            else if (isDarkMode) activateDarkMode()
+            else if (isNotSpecified || hasNoSupport) {
+              const now = new Date()
+              const hour = now.getHours()
+              const isNight = hour <= 6 || hour >= 18
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            window.matchMedia('(prefers-color-scheme: dark)').addListener(e => {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="白开水船长" type="application/atom+xml">
+</head><body data-type="anzhiyu"><div id="web_bg"></div><div id="an_music_bg"></div><div id="loading-box" onclick="document.getElementById(&quot;loading-box&quot;).classList.add(&quot;loaded&quot;)"><div class="loading-bg"><img class="loading-img nolazyload" alt="加载头像" src="https://cloudflare-imgbed-ebz.pages.dev/file/1734418074964.jpeg"/><div class="loading-image-dot"></div></div></div><script>const preloader = {
+  endLoading: () => {
+    document.getElementById('loading-box').classList.add("loaded");
+  },
+  initLoading: () => {
+    document.getElementById('loading-box').classList.remove("loaded")
+  }
+}
+window.addEventListener('load',()=> { preloader.endLoading() })
+setTimeout(function(){preloader.endLoading();},10000)
+
+if (true) {
+  document.addEventListener('pjax:send', () => { preloader.initLoading() })
+  document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+}</script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.10/progress_bar/progress_bar.css"/><script async="async" src="https://cdn.cbd.int/pace-js@1.2.4/pace.min.js" data-pace-options="{ &quot;restartOnRequestAfter&quot;:false,&quot;eventLag&quot;:false}"></script><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><div id="nav-group"><span id="blog_name"><a id="site-name" href="/" accesskey="h"><div class="title">白开水船长</div><i class="anzhiyufont anzhiyu-icon-house-chimney"></i></a><div id="he-plugin-simple"></div><script>var WIDGET = {
+  "CONFIG": {
+    "modules": "0124",
+    "background": "2",
+    "tmpColor": "FFFFFF",
+    "tmpSize": "16",
+    "cityColor": "FFFFFF",
+    "citySize": "16",
+    "aqiColor": "E8D87B",
+    "aqiSize": "16",
+    "weatherIconSize": "24",
+    "alertIconSize": "18",
+    "padding": "10px 10px 10px 10px",
+    "shadow": "0",
+    "language": "auto",
+    "borderRadius": "20",
+    "fixed": "true",
+    "vertical": "top",
+    "horizontal": "left",
+    "left": "20",
+    "top": "7.1",
+    "key": "df245676fb434a0691ead1c63341cd94"
+  }
+}
+</script><link rel="stylesheet" href="https://widget.qweather.net/simple/static/css/he-simple.css?v=1.4.0"/><script src="https://widget.qweather.net/simple/static/js/he-simple.js?v=1.4.0"></script></span><div class="mask-name-container"><div id="name-container"><a id="page-name" href="javascript:anzhiyu.scrollToDest(0, 500)">PAGE_NAME</a></div></div><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/categories/"><span> 分类</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/tags/"><span> 标签</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/archives/"><span> 归档</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/link/"><span> 友链</span></a></div></div></div><div id="nav-right"><div class="nav-button" id="randomPost_button"><a class="site-page" onclick="toRandomPost()" title="随机前往一个文章" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-dice"></i></a></div><div class="nav-button" id="search-button"><a class="site-page social-icon search" href="javascript:void(0);" title="搜索🔍" accesskey="s"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span> 搜索</span></a></div><input id="center-console" type="checkbox"/><label class="widget" for="center-console" title="中控台" onclick="anzhiyu.switchConsole();"><i class="left"></i><i class="widget center"></i><i class="widget right"></i></label><div id="console"><div class="console-card-group-reward"><ul class="reward-all console-card"><li class="reward-item"><a href="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png" target="_blank"><img class="post-qr-code-img" alt="微信" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png" target="_blank"><img class="post-qr-code-img" alt="支付宝" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png"/></a><div class="post-qr-code-desc">支付宝</div></li></ul></div><div class="console-card-group"><div class="console-card-group-left"><div class="console-card" id="card-newest-comments"><div class="card-content"><div class="author-content-item-tips">互动</div><span class="author-content-item-title"> 最新评论</span></div><div class="aside-list"><span>正在加载中...</span></div></div></div><div class="console-card-group-right"><div class="console-card tags"><div class="card-content"><div class="author-content-item-tips">兴趣点</div><span class="author-content-item-title">寻找你感兴趣的领域</span><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/AI/" style="font-size: 1.05rem;">AI<sup>1</sup></a><a href="/tags/API/" style="font-size: 1.05rem;">API<sup>1</sup></a><a href="/tags/ChatGPT%EF%BC%8C%E5%B7%A5%E5%85%B7/" style="font-size: 1.05rem;">ChatGPT，工具<sup>1</sup></a><a href="/tags/Cloudflare/" style="font-size: 1.05rem;">Cloudflare<sup>1</sup></a><a href="/tags/Excel/" style="font-size: 1.05rem;">Excel<sup>1</sup></a><a href="/tags/Git/" style="font-size: 1.05rem;">Git<sup>1</sup></a><a href="/tags/Go/" style="font-size: 1.05rem;">Go<sup>1</sup></a><a href="/tags/Go%E5%9F%BA%E7%A1%80/" style="font-size: 1.05rem;">Go基础<sup>1</sup></a><a href="/tags/IDE/" style="font-size: 1.05rem;">IDE<sup>1</sup></a><a href="/tags/Java/" style="font-size: 1.05rem;">Java<sup>15</sup></a><a href="/tags/Java-%E5%85%B3%E9%94%AE%E5%AD%97/" style="font-size: 1.05rem;">Java 关键字<sup>5</sup></a><a href="/tags/Java-%E5%9F%BA%E7%A1%80/" style="font-size: 1.05rem;">Java 基础<sup>15</sup></a><a href="/tags/Linux/" style="font-size: 1.05rem;">Linux<sup>1</sup></a><a href="/tags/MySQL/" style="font-size: 1.05rem;">MySQL<sup>1</sup></a><a href="/tags/Python/" style="font-size: 1.05rem;">Python<sup>4</sup></a><a href="/tags/Python%E5%9F%BA%E7%A1%80/" style="font-size: 1.05rem;">Python基础<sup>1</sup></a><a href="/tags/Tableau/" style="font-size: 1.05rem;">Tableau<sup>1</sup></a><a href="/tags/Telegram/" style="font-size: 1.05rem;">Telegram<sup>1</sup></a><a href="/tags/idea/" style="font-size: 1.05rem;">idea<sup>1</sup></a><a href="/tags/%E5%9B%BE%E5%BA%8A/" style="font-size: 1.05rem;">图床<sup>1</sup></a><a href="/tags/%E5%B7%A5%E5%85%B7/" style="font-size: 1.05rem;">工具<sup>3</sup></a><a href="/tags/%E5%BC%80%E5%8F%91%E8%B8%A9%E5%9D%91/" style="font-size: 1.05rem;">开发踩坑<sup>1</sup></a><a href="/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/" style="font-size: 1.05rem;">数据分析<sup>2</sup></a><a href="/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/" style="font-size: 1.05rem;">数据库<sup>1</sup></a><a href="/tags/%E6%9C%8D%E5%8A%A1%E6%90%AD%E5%BB%BA/" style="font-size: 1.05rem;">服务搭建<sup>1</sup></a><a href="/tags/%E7%88%AC%E8%99%AB/" style="font-size: 1.05rem;">爬虫<sup>2</sup></a><a href="/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/" style="font-size: 1.05rem;">环境配置<sup>1</sup></a><a href="/tags/%E7%BC%96%E7%A8%8B/" style="font-size: 1.05rem;">编程<sup>18</sup></a><a href="/tags/%E8%B5%84%E6%BA%90%E6%95%B4%E7%90%86/" style="font-size: 1.05rem;">资源整理<sup>1</sup></a></div></div><hr/></div></div><div class="console-card history"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-box-archiv"></i><span>文章</span></div><div class="card-archives"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-archive"></i><span>归档</span><a class="card-more-btn" href="/archives/" title="查看更多">
+    <i class="anzhiyufont anzhiyu-icon-angle-right"></i></a></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/12/"><span class="card-archive-list-date">十二月 2024</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/11/"><span class="card-archive-list-date">十一月 2024</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">7</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/08/"><span class="card-archive-list-date">八月 2024</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/02/"><span class="card-archive-list-date">二月 2024</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">2</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/01/"><span class="card-archive-list-date">一月 2024</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">2</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/05/"><span class="card-archive-list-date">五月 2022</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/03/"><span class="card-archive-list-date">三月 2022</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">2</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/02/"><span class="card-archive-list-date">二月 2022</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">3</span><span>篇</span></div></a></li></ul></div><hr/></div></div></div><div class="button-group"><div class="console-btn-item"><a class="darkmode_switchbutton" title="显示模式切换" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-moon"></i></a></div><div class="console-btn-item" id="consoleHideAside" onclick="anzhiyu.hideAsideBtn()" title="边栏显示控制"><a class="asideSwitch"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></a></div></div><div class="console-mask" onclick="anzhiyu.hideConsole()" href="javascript:void(0);"></div></div><div class="nav-button" id="nav-totop"><a class="totopbtn" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i><span id="percent" onclick="anzhiyu.scrollToDest(0,500)">0</span></a></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);" title="切换"><i class="anzhiyufont anzhiyu-icon-bars"></i></a></div></div></div></nav><div id="post-info"><div id="post-firstinfo"><div class="meta-firstline"><a class="post-meta-original">原创</a><span class="post-meta-categories"><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-inbox post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7/" itemprop="url">实用技巧</a></span><span class="article-meta tags"><a class="article-meta__tags" href="/tags/Excel/" tabindex="-1" itemprop="url"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>Excel</span></a><a class="article-meta__tags" href="/tags/%E5%B7%A5%E5%85%B7/" tabindex="-1" itemprop="url"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>工具</span></a></span></div></div><h1 class="post-title" itemprop="name headline">Excel使用技巧</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="anzhiyufont anzhiyu-icon-calendar-days post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" itemprop="dateCreated datePublished" datetime="2024-11-14T11:43:09.000Z" title="发表于 2024-11-14 19:43:09">2024-11-14</time><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-history post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" itemprop="dateCreated datePublished" datetime="2024-12-21T12:09:48.351Z" title="更新于 2024-12-21 20:09:48">2024-12-21</time></span></div><div class="meta-secondline"><span class="post-meta-separator"></span><span class="post-meta-wordcount"><i class="anzhiyufont anzhiyu-icon-file-word post-meta-icon" title="文章字数"></i><span class="post-meta-label" title="文章字数">字数总计:</span><span class="word-count" title="文章字数">5.8k</span><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-clock post-meta-icon" title="阅读时长"></i><span class="post-meta-label" title="阅读时长">阅读时长:</span><span>19分钟</span></span><span class="post-meta-separator"></span><span class="post-meta-pv-cv" id="" data-flag-title="Excel使用技巧"><i class="anzhiyufont anzhiyu-icon-fw-eye post-meta-icon"></i><span class="post-meta-label" title="阅读量">阅读量:</span><span id="busuanzi_value_page_pv"><i class="anzhiyufont anzhiyu-icon-spinner anzhiyu-spin"></i></span></span><span class="post-meta-separator"></span><span class="post-meta-commentcount"><i class="anzhiyufont anzhiyu-icon-comments post-meta-icon"></i><span class="post-meta-label">评论数:</span><a href="/posts/b8a31387.html#post-comment" tabindex="-1"><span id="twikoo-count"><i class="anzhiyufont anzhiyu-icon-spinner anzhiyu-spin"></i></span></a></span></div></div></div><section class="main-hero-waves-area waves-area"><svg class="waves-svg" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M -160 44 c 30 0 58 -18 88 -18 s 58 18 88 18 s 58 -18 88 -18 s 58 18 88 18 v 44 h -352 Z"></path></defs><g class="parallax"><use href="#gentle-wave" x="48" y="0"></use><use href="#gentle-wave" x="48" y="3"></use><use href="#gentle-wave" x="48" y="5"></use><use href="#gentle-wave" x="48" y="7"></use></g></svg></section><div id="post-top-cover"><img class="nolazyload" id="post-top-bg" src="https://bing.ee123.net/img/rand?_r_=e510b8bf-1bd3-96ae-f9e9-4625cd12bc35"></div></header><main id="blog-container"><div class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container" itemscope itemtype="https://cq230.github.io/posts/b8a31387.html"><header><a class="post-meta-categories" href="/categories/%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7/" itemprop="url">实用技巧</a><a href="/tags/Excel/" tabindex="-1" itemprop="url">Excel</a><a href="/tags/%E5%B7%A5%E5%85%B7/" tabindex="-1" itemprop="url">工具</a><h1 id="CrawlerTitle" itemprop="name headline">Excel使用技巧</h1><span itemprop="author" itemscope itemtype="http://schema.org/Person">白开水船长</span><time itemprop="dateCreated datePublished" datetime="2024-11-14T11:43:09.000Z" title="发表于 2024-11-14 19:43:09">2024-11-14</time><time itemprop="dateCreated datePublished" datetime="2024-12-21T12:09:48.351Z" title="更新于 2024-12-21 20:09:48">2024-12-21</time></header><h1 id="一、Excel-常用操作"><a href="#一、Excel-常用操作" class="headerlink" title="一、Excel 常用操作"></a>一、Excel 常用操作</h1><table>
+<thead>
+<tr>
+<th align="center">功能</th>
+<th align="center">操作</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">启用或关闭筛选功能</td>
+<td align="center">Ctrl + Shift + L</td>
+</tr>
+<tr>
+<td align="center">移动列</td>
+<td align="center">选中全列，按住 Shift 键，鼠标在列边缘拖动至目标列</td>
+</tr>
+<tr>
+<td align="center">快速到最后一行</td>
+<td align="center">选中一个单元格，鼠标双击单元格下边框，最上一行同理</td>
+</tr>
+<tr>
+<td align="center">删除所有右边列</td>
+<td align="center">选中目标列，Ctrl + Shift + → 选中并手动删除，删除全部下边行同理</td>
+</tr>
+<tr>
+<td align="center">复制填充行</td>
+<td align="center">选中目标单元格，Ctrl + R</td>
+</tr>
+<tr>
+<td align="center">复制填充列</td>
+<td align="center">选中目标单元格，Ctrl + D</td>
+</tr>
+<tr>
+<td align="center">填充序号</td>
+<td align="center">单元格填 1 ，选中单元格鼠标点住单元格右下角拖动</td>
+</tr>
+<tr>
+<td align="center">复制填充合并单元格</td>
+<td align="center">选中目标单元格，在上方填入值，Ctrl + Enter</td>
+</tr>
+<tr>
+<td align="center">yyyy&#x2F;m&#x2F;d -&gt; 星期几</td>
+<td align="center">选中单元格，设置单元格格式 - 数字 - 自定义 - 填 aaaa - 确定</td>
+</tr>
+<tr>
+<td align="center">yyyy&#x2F;m&#x2F;d -&gt; 周几</td>
+<td align="center">选中单元格，设置单元格格式 - 数字 - 自定义 - 填 周aaa - 确定</td>
+</tr>
+<tr>
+<td align="center">文本转日期格式</td>
+<td align="center">选中单元格，数据 - 分列 - 固定宽度 - 下一步 - 下一步 - 日期 - 完成</td>
+</tr>
+<tr>
+<td align="center">数字加上单位（不影响计算）</td>
+<td align="center">选中单元格，设置单元格格式 - 数字 - 自定义 - 在对应格式后面加单位 - 确定</td>
+</tr>
+</tbody></table>
+<p><strong>Tips:</strong></p>
+<p>尽量不要用 Excel 中的日期格式存储日期数据，用字符串格式。</p>
+<h1 id="二、EDATE-DATE"><a href="#二、EDATE-DATE" class="headerlink" title="二、EDATE &amp; DATE"></a>二、EDATE &amp; DATE</h1><p>在 Excel 中，<code>EDATE</code> 和 <code>DATE</code> 是两个常用的日期函数，它们具有不同的功能。下面是对它们的详细解释：</p>
+<h2 id="1-EDATE-函数"><a href="#1-EDATE-函数" class="headerlink" title="1. EDATE 函数"></a>1. <code>EDATE</code> 函数</h2><p><code>EDATE</code> 函数用于返回从给定日期起，按月数偏移的日期。</p>
+<h3 id="语法："><a href="#语法：" class="headerlink" title="语法："></a>语法：</h3><figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">EDATE</span>(start_date, months)</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>start_date</strong>：起始日期，可以是一个日期值或一个包含日期的单元格。</li>
+<li><strong>months</strong>：偏移的月份数。如果是正数，返回的是未来的日期；如果是负数，返回的是过去的日期。</li>
+</ul>
+<h3 id="示例："><a href="#示例：" class="headerlink" title="示例："></a>示例：</h3><p>假设：</p>
+<ul>
+<li>A1 单元格包含日期 <code>2024年1月1日</code>，你想要知道从这个日期起，<strong>3个月之后</strong>是何时。</li>
+</ul>
+<p>公式：</p>
+<figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">=<span class="built_in">EDATE</span>(A1, <span class="number">3</span>)</span><br></pre></td></tr></table></figure>
+
+<p>结果：<code>2024年4月1日</code>，因为 3 个月后是 2024年4月1日。</p>
+<p>如果想要返回 <strong>3个月之前</strong>的日期，可以使用负数：</p>
+<figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">=<span class="built_in">EDATE</span>(A1, -<span class="number">3</span>)</span><br></pre></td></tr></table></figure>
+
+<p>结果：<code>2023年10月1日</code>。</p>
+<h3 id="常见应用："><a href="#常见应用：" class="headerlink" title="常见应用："></a>常见应用：</h3><ul>
+<li>用于计算发票到期日（例如，30天、60天、90天后的日期）。</li>
+<li>用于按月份推算业务周期或贷款期限。</li>
+</ul>
+<hr>
+<h2 id="2-DATE-函数"><a href="#2-DATE-函数" class="headerlink" title="2. DATE 函数"></a>2. <code>DATE</code> 函数</h2><p><code>DATE</code> 函数用于根据指定的年份、月份和日期来返回一个日期值。</p>
+<h3 id="语法：-1"><a href="#语法：-1" class="headerlink" title="语法："></a>语法：</h3><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">DATE</span>(<span class="keyword">year</span>, <span class="keyword">month</span>, <span class="keyword">day</span>)</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>year</strong>：年份，通常是一个四位数的年份（例如，2024）。</li>
+<li><strong>month</strong>：月份，可以是 1 到 12 的数字，或使用负数和大于 12 的数来跨年计算月份。</li>
+<li><strong>day</strong>：日期，表示该月份中的具体日期，通常是 1 到 31。</li>
+</ul>
+<h3 id="示例：-1"><a href="#示例：-1" class="headerlink" title="示例："></a>示例：</h3><p>假设：</p>
+<ul>
+<li>你想根据年份 <code>2024</code>、月份 <code>7</code>、日期 <code>31</code> 来生成一个日期。</li>
+</ul>
+<p>公式：</p>
+<figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">=<span class="built_in">DATE</span>(<span class="number">2024</span>, <span class="number">7</span>, <span class="number">31</span>)</span><br></pre></td></tr></table></figure>
+
+<p>结果：<code>2024年7月31日</code>。</p>
+<h3 id="特殊情况："><a href="#特殊情况：" class="headerlink" title="特殊情况："></a>特殊情况：</h3><ul>
+<li>如果 <strong>month</strong> 超过 12 或为负数，Excel 会自动处理年份的溢出。例如：</li>
+</ul>
+<figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">=<span class="built_in">DATE</span>(<span class="number">2024</span>, <span class="number">14</span>, <span class="number">31</span>)</span><br></pre></td></tr></table></figure>
+
+<p>结果：<code>2025年2月28日</code>，因为 <code>14</code> 月是 2025年的第2个月（2月）。</p>
+<ul>
+<li>如果 <strong>day</strong> 超过了该月的最大日期，Excel 会自动调整日期。例如：</li>
+</ul>
+<figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">=<span class="built_in">DATE</span>(<span class="number">2024</span>, <span class="number">2</span>, <span class="number">30</span>)</span><br></pre></td></tr></table></figure>
+
+<p>结果：<code>2024年3月1日</code>，因为 2024年2月只有29天，30天会被自动调整为 3月1日。</p>
+<h3 id="常见应用：-1"><a href="#常见应用：-1" class="headerlink" title="常见应用："></a>常见应用：</h3><ul>
+<li>用于创建特定日期，或者从年、月、日等不同数据源构造日期。</li>
+<li>用于日期的计算和比较，尤其是在涉及多个字段的日期时。</li>
+</ul>
+<hr>
+<h2 id="3-总结对比："><a href="#3-总结对比：" class="headerlink" title="3.总结对比："></a>3.总结对比：</h2><table>
+<thead>
+<tr>
+<th><strong>功能</strong></th>
+<th><strong>EDATE</strong></th>
+<th><strong>DATE</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>功能描述</strong></td>
+<td>按指定的月份偏移返回日期</td>
+<td>根据年、月、日构造一个日期</td>
+</tr>
+<tr>
+<td><strong>用法</strong></td>
+<td>用于计算偏移的日期（加减月数）</td>
+<td>用于根据年份、月份和日期创建日期</td>
+</tr>
+<tr>
+<td><strong>参数</strong></td>
+<td>起始日期、月份偏移（正负整数）</td>
+<td>年份、月份、日期</td>
+</tr>
+<tr>
+<td><strong>示例</strong></td>
+<td><code>=EDATE(A1, 3)</code>（当前日期加3个月）</td>
+<td><code>=DATE(2024, 7, 31)</code>（2024年7月31日）</td>
+</tr>
+<tr>
+<td><strong>应用场景</strong></td>
+<td>计算未来或过去的日期（按月）</td>
+<td>根据年、月、日创建特定日期</td>
+</tr>
+</tbody></table>
+<p>这两个函数都是处理日期的常用工具，选择哪一个取决于具体需求：</p>
+<ul>
+<li>如果你需要按月推算日期，使用 <code>EDATE</code>。</li>
+<li>如果你需要根据年、月、日来生成特定日期，使用 <code>DATE</code>。</li>
+<li><strong>按月推算日期</strong>：使用 <code>EDATE</code> 或 <code>EOMONTH</code>。</li>
+<li><strong>按天数推算日期</strong>：使用 <code>WORKDAY</code> 或 <code>WORKDAY.INTL</code>。</li>
+<li><strong>计算日期差异</strong>：使用 <code>DAYS</code> 或 <code>YEARFRAC</code></li>
+</ul>
+<h1 id="三、SUM-SUBTOTAL"><a href="#三、SUM-SUBTOTAL" class="headerlink" title="三、SUM &amp; SUBTOTAL"></a>三、SUM &amp; SUBTOTAL</h1><p>在 Excel 中，<code>SUM</code> 和 <code>SUBTOTAL</code> 都是常用的数学函数，用于对一组数字进行求和。它们的主要区别在于如何处理数据范围和隐藏行。以下是详细的比较和说明：</p>
+<h2 id="1-SUM-函数"><a href="#1-SUM-函数" class="headerlink" title="1. SUM 函数"></a>1. <code>SUM</code> 函数</h2><p><code>SUM</code> 是 Excel 中最基本的求和函数，旨在对指定的数字范围进行简单的求和。</p>
+<h3 id="语法：-2"><a href="#语法：-2" class="headerlink" title="语法："></a>语法：</h3><figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">SUM</span>(number1, [number2], ...)</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>**number1, number2, …**：要相加的数字或单元格范围。</li>
+</ul>
+<h3 id="示例：-2"><a href="#示例：-2" class="headerlink" title="示例："></a>示例：</h3><p>假设你有一个数据范围 A1:A5，其中包含数字 10, 20, 30, 40, 和 50。</p>
+<figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">=<span class="built_in">SUM</span>(A1:A5)</span><br></pre></td></tr></table></figure>
+
+<p>结果：<code>150</code>（10 + 20 + 30 + 40 + 50）</p>
+<h3 id="特点："><a href="#特点：" class="headerlink" title="特点："></a>特点：</h3><ul>
+<li><code>SUM</code> 函数会 <strong>对所有可见和隐藏的单元格</strong> 进行求和，<strong>即使这些行被隐藏（如通过过滤或手动隐藏）</strong>，也会将其包括在求和中。</li>
+<li>它适用于所有需要对一系列数值进行加总的情况。</li>
+</ul>
+<h2 id="2-SUBTOTAL-函数"><a href="#2-SUBTOTAL-函数" class="headerlink" title="2. SUBTOTAL 函数"></a>2. <code>SUBTOTAL</code> 函数</h2><p><code>SUBTOTAL</code> 函数更为灵活，除了可以执行求和外，还能进行其他统计计算。<code>SUBTOTAL</code> 的一个显著特性是：<strong>它可以忽略被隐藏的行</strong>，如果你使用自动筛选（Filter）或手动隐藏了行时，<code>SUBTOTAL</code> 只对可见的数据进行操作。</p>
+<h3 id="语法：-3"><a href="#语法：-3" class="headerlink" title="语法："></a>语法：</h3><figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">SUBTOTAL</span>(function_num, ref1, [ref2], ...)</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>function_num</strong>：一个数字，指定要使用的汇总函数。对于求和，<code>function_num</code> 应设置为 <strong>9</strong> 或 <strong>109</strong>。<ul>
+<li><strong>9</strong>：表示求和，<strong>包括隐藏的行</strong>。</li>
+<li><strong>109</strong>：表示求和，<strong>忽略隐藏的行</strong>。</li>
+</ul>
+</li>
+<li>**ref1, ref2, …**：要进行汇总的范围，可以是单元格范围或多个范围。</li>
+</ul>
+<h3 id="示例：-3"><a href="#示例：-3" class="headerlink" title="示例："></a>示例：</h3><p>假设你有一个数据范围 A1:A5，其中包含数字 10, 20, 30, 40, 和 50，并且 A3 行被隐藏。</p>
+<p>如果你使用 <code>SUBTOTAL</code> 来计算求和并忽略隐藏的行（例如，使用过滤或手动隐藏行）：</p>
+<figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">=<span class="built_in">SUBTOTAL</span>(<span class="number">109</span>, A1:A5)</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>结果将是 <strong>120</strong>（10 + 20 + 40 + 50），因为第 3 行（数字 30）被隐藏，<code>SUBTOTAL</code> 忽略了这行。</li>
+</ul>
+<p>如果你使用 9（表示包括隐藏行的求和）：</p>
+<figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">=<span class="built_in">SUBTOTAL</span>(<span class="number">9</span>, A1:A5)</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>结果将是 <strong>150</strong>（10 + 20 + 30 + 40 + 50），即使第 3 行被隐藏，<code>SUM</code> 也会计算所有行。</li>
+</ul>
+<h3 id="常见的-function-num-参数："><a href="#常见的-function-num-参数：" class="headerlink" title="常见的 function_num 参数："></a>常见的 <code>function_num</code> 参数：</h3><ul>
+<li><strong>1</strong>：<code>AVERAGE</code>（平均值）</li>
+<li><strong>2</strong>：<code>COUNT</code>（计数）</li>
+<li><strong>3</strong>：<code>COUNTA</code>（非空单元格计数）</li>
+<li><strong>9</strong>：<code>SUM</code>（求和）</li>
+<li><strong>10</strong>：<code>MAX</code>（最大值）</li>
+<li><strong>11</strong>：<code>MIN</code>（最小值）</li>
+</ul>
+<h3 id="示例：不同功能的-function-num"><a href="#示例：不同功能的-function-num" class="headerlink" title="示例：不同功能的 function_num"></a>示例：不同功能的 <code>function_num</code></h3><figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">=<span class="built_in">SUBTOTAL</span>(<span class="number">9</span>, A1:A5)    &#x27; 求和，包括隐藏行</span><br><span class="line">=<span class="built_in">SUBTOTAL</span>(<span class="number">109</span>, A1:A5)   &#x27; 求和，忽略隐藏行</span><br><span class="line">=<span class="built_in">SUBTOTAL</span>(<span class="number">1</span>, A1:A5)     &#x27; 平均值，包括隐藏行</span><br><span class="line">=<span class="built_in">SUBTOTAL</span>(<span class="number">101</span>, A1:A5)   &#x27; 平均值，忽略隐藏行</span><br></pre></td></tr></table></figure>
+
+<h2 id="3-SUM-与-SUBTOTAL-的区别"><a href="#3-SUM-与-SUBTOTAL-的区别" class="headerlink" title="3. SUM 与 SUBTOTAL 的区别"></a>3. <code>SUM</code> 与 <code>SUBTOTAL</code> 的区别</h2><table>
+<thead>
+<tr>
+<th><strong>特性</strong></th>
+<th><strong>SUM</strong></th>
+<th><strong>SUBTOTAL</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>功能</strong></td>
+<td>求和指定范围内所有单元格的值</td>
+<td>既可以求和，又可以进行多种统计（如平均、计数、最大值等）</td>
+</tr>
+<tr>
+<td><strong>忽略隐藏行</strong></td>
+<td>不会忽略隐藏的行</td>
+<td>可以根据 <code>function_num</code> 的选择，选择忽略或不忽略隐藏行</td>
+</tr>
+<tr>
+<td><strong>适用场景</strong></td>
+<td>需要对所有数据进行求和（包括隐藏数据）</td>
+<td>需要对可见数据进行求和，或其他统计操作，尤其是当使用自动筛选或手动隐藏行时</td>
+</tr>
+<tr>
+<td><strong>常见用途</strong></td>
+<td>对一组数值进行简单求和</td>
+<td>在有过滤数据时，统计可见数据的求和或其他汇总操作</td>
+</tr>
+<tr>
+<td><strong>函数的灵活性</strong></td>
+<td>只有求和功能</td>
+<td>可根据 <code>function_num</code> 实现多种统计功能（如平均值、计数、最大最小值等）</td>
+</tr>
+</tbody></table>
+<h2 id="4-SUBTOTAL-更高效的使用场景："><a href="#4-SUBTOTAL-更高效的使用场景：" class="headerlink" title="4. SUBTOTAL 更高效的使用场景："></a>4. <code>SUBTOTAL</code> 更高效的使用场景：</h2><ul>
+<li>当你有一个通过 <strong>筛选</strong> 或 <strong>手动隐藏</strong> 行的表格时，<code>SUBTOTAL</code> 会忽略隐藏的行，这对于避免错误的计算结果很有帮助。</li>
+<li>例如，当你对销售数据进行筛选时，只希望对筛选出的（可见的）数据进行求和，而不包括被隐藏的数据行。这时，使用 <code>SUBTOTAL</code> 比使用 <code>SUM</code> 更为合适。</li>
+</ul>
+<h2 id="5-总结："><a href="#5-总结：" class="headerlink" title="5.总结："></a>5.总结：</h2><ul>
+<li>使用 <code>SUM</code> 时，它会对所有数据（包括隐藏的行）进行求和，适用于需要对整个数据范围求和的场景。</li>
+<li>使用 <code>SUBTOTAL</code> 时，你可以选择是否忽略隐藏的行，并且它支持更多的统计功能，特别适用于有筛选或隐藏行的情况。</li>
+</ul>
+<h1 id="四、SUMIF-SUMIFS"><a href="#四、SUMIF-SUMIFS" class="headerlink" title="四、SUMIF &amp; SUMIFS"></a>四、SUMIF &amp; SUMIFS</h1><p>在 Excel 中，<code>SUMIF</code> 和 <code>SUMIFS</code> 函数都用于条件求和，但它们在使用上有一些不同。下面是对这两个函数的详细解释：</p>
+<h2 id="1-SUMIF-函数"><a href="#1-SUMIF-函数" class="headerlink" title="1. SUMIF 函数"></a>1. <code>SUMIF</code> 函数</h2><p><code>SUMIF</code> 用于在满足指定条件时对范围内的数值进行求和。它只接受一个条件进行判断，适用于简单的单一条件求和。</p>
+<h3 id="语法：-4"><a href="#语法：-4" class="headerlink" title="语法："></a>语法：</h3><figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">SUMIF</span>(range, criteria, [sum_range])</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>range</strong>：要应用条件的单元格范围。</li>
+<li><strong>criteria</strong>：条件，可以是一个数值、表达式、文本，甚至是一个单元格引用。</li>
+<li>**[sum_range]**：可选。实际要求和的范围。如果省略，则默认使用 <strong>range</strong> 作为要求和的范围。</li>
+</ul>
+<h3 id="示例：-4"><a href="#示例：-4" class="headerlink" title="示例："></a>示例：</h3><p>假设在 A2:A6 中是销售员姓名，在 B2:B6 中是他们对应的销售额，你想要求和 <strong>销售员“张三”</strong> 的销售额。</p>
+<table>
+<thead>
+<tr>
+<th align="center">A列</th>
+<th align="center">B列</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">销售员</td>
+<td align="center">销售额</td>
+</tr>
+<tr>
+<td align="center">张三</td>
+<td align="center">5000</td>
+</tr>
+<tr>
+<td align="center">李四</td>
+<td align="center">3000</td>
+</tr>
+<tr>
+<td align="center">张三</td>
+<td align="center">4000</td>
+</tr>
+<tr>
+<td align="center">王五</td>
+<td align="center">3500</td>
+</tr>
+<tr>
+<td align="center">张三</td>
+<td align="center">4500</td>
+</tr>
+</tbody></table>
+<p>公式：</p>
+<figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">=<span class="selector-tag">SUMIF</span>(<span class="attribute">A2</span>:A6, <span class="string">&quot;张三&quot;</span>, <span class="attribute">B2</span>:B6)</span><br></pre></td></tr></table></figure>
+
+<p>结果：<code>13500</code>，因为“张三”在 B2:B6 中对应的销售额是 5000 + 4000 + 4500。</p>
+<h3 id="常见用法："><a href="#常见用法：" class="headerlink" title="常见用法："></a>常见用法：</h3><ul>
+<li>使用 <code>SUMIF</code> 进行单一条件求和。例如，求和大于某个值、等于某个值、包含特定文本等。</li>
+<li><code>SUMIF</code> 支持以下条件表达式：<ul>
+<li>数字：例如 <code>&quot;&gt;5000&quot;</code>（大于5000）</li>
+<li>文本：例如 <code>&quot;张三&quot;</code>（等于“张三”）</li>
+<li>通配符：<code>&quot;?&quot;</code>（匹配一个字符）、<code>&quot;*&quot;</code> （匹配多个字符）</li>
+</ul>
+</li>
+</ul>
+<h2 id="2-SUMIFS-函数"><a href="#2-SUMIFS-函数" class="headerlink" title="2. SUMIFS 函数"></a>2. <code>SUMIFS</code> 函数</h2><p><code>SUMIFS</code> 是 <code>SUMIF</code> 的扩展，允许使用 <strong>多个条件</strong> 来进行求和。你可以对多个范围应用条件，只有当所有条件都满足时，才会进行求和。</p>
+<h3 id="语法：-5"><a href="#语法：-5" class="headerlink" title="语法："></a>语法：</h3><figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">SUMIFS</span>(sum_range, criteria_range1, criteria1, [criteria_range2, criteria2], ...)</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>sum_range</strong>：实际要求和的单元格范围。</li>
+<li><strong>criteria_range1</strong>：第一个条件范围。</li>
+<li><strong>criteria1</strong>：第一个条件。</li>
+<li>**[criteria_range2, criteria2]**：可选，第二个条件范围及条件。可以有多个条件范围和条件。</li>
+</ul>
+<h3 id="示例：-5"><a href="#示例：-5" class="headerlink" title="示例："></a>示例：</h3><p>假设在 A2:A6 中是销售员姓名，在 B2:B6 中是销售额，在 C2:C6 中是销售的月份，你想要求和 <strong>“张三”</strong> 在 <strong>“1月”</strong> 的销售额。</p>
+<table>
+<thead>
+<tr>
+<th align="center">A列</th>
+<th align="center">B列</th>
+<th align="center">C列</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">销售员</td>
+<td align="center">销售额</td>
+<td align="center">月份</td>
+</tr>
+<tr>
+<td align="center">张三</td>
+<td align="center">5000</td>
+<td align="center">1月</td>
+</tr>
+<tr>
+<td align="center">李四</td>
+<td align="center">3000</td>
+<td align="center">2月</td>
+</tr>
+<tr>
+<td align="center">张三</td>
+<td align="center">4000</td>
+<td align="center">1月</td>
+</tr>
+<tr>
+<td align="center">王五</td>
+<td align="center">3500</td>
+<td align="center">3月</td>
+</tr>
+<tr>
+<td align="center">张三</td>
+<td align="center">4500</td>
+<td align="center">2月</td>
+</tr>
+</tbody></table>
+<p>公式：</p>
+<figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">=<span class="selector-tag">SUMIFS</span>(<span class="attribute">B2</span>:B6, <span class="attribute">A2</span>:A6, <span class="string">&quot;张三&quot;</span>, <span class="attribute">C2</span>:C6, <span class="string">&quot;1月&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+<p>结果：<code>9000</code>，因为只有在“张三”并且在“1月”时，销售额才会被加总（5000 + 4000）。</p>
+<h3 id="常见用法：-1"><a href="#常见用法：-1" class="headerlink" title="常见用法："></a>常见用法：</h3><ul>
+<li>使用 <code>SUMIFS</code> 进行多个条件的求和。例如，求和在特定日期、特定销售员、特定产品等情况下的销售额。</li>
+<li><code>SUMIFS</code> 支持条件的比较运算符：<ul>
+<li>数字：<code>&quot;&gt;1000&quot;</code>、<code>&quot;&lt;5000&quot;</code> 等</li>
+<li>文本：例如 <code>&quot;张三&quot;</code></li>
+<li>日期：例如 <code>&quot;&gt;2024-01-01&quot;</code> 等</li>
+<li>通配符：<code>&quot;?&quot;</code> 和 <code>&quot;*&quot;</code></li>
+</ul>
+</li>
+</ul>
+<h3 id="SUMIF-与-SUMIFS-的区别"><a href="#SUMIF-与-SUMIFS-的区别" class="headerlink" title="SUMIF 与 SUMIFS 的区别"></a><code>SUMIF</code> 与 <code>SUMIFS</code> 的区别</h3><table>
+<thead>
+<tr>
+<th align="center"><strong>特性</strong></th>
+<th align="center"><strong>SUMIF</strong></th>
+<th align="center"><strong>SUMIFS</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><strong>条件数量</strong></td>
+<td align="center">只能处理 <strong>一个条件</strong>。</td>
+<td align="center">可以处理 <strong>多个条件</strong>。</td>
+</tr>
+<tr>
+<td align="center"><strong>条件范围</strong></td>
+<td align="center">只有 <strong>一个条件范围</strong>。</td>
+<td align="center">可以指定多个条件范围，每个条件范围对应一个条件。</td>
+</tr>
+<tr>
+<td align="center"><strong>语法</strong></td>
+<td align="center"><code>SUMIF(range, criteria, [sum_range])</code></td>
+<td align="center"><code>SUMIFS(sum_range, criteria_range1, criteria1, ...)</code></td>
+</tr>
+<tr>
+<td align="center"><strong>条件表达式</strong></td>
+<td align="center">支持简单的单一条件（数字、文本、比较运算符等）</td>
+<td align="center">支持多个条件，可以按多个标准进行过滤。</td>
+</tr>
+<tr>
+<td align="center"><strong>适用场景</strong></td>
+<td align="center">单一条件求和，如计算某个销售员的总销售额。</td>
+<td align="center">多条件求和，如计算某销售员在某月的销售额。</td>
+</tr>
+</tbody></table>
+<h3 id="示例比较："><a href="#示例比较：" class="headerlink" title="示例比较："></a>示例比较：</h3><p>假设你有一个销售表，包含销售员、销售额和月份，表格如下：</p>
+<table>
+<thead>
+<tr>
+<th align="center">销售员</th>
+<th align="center">销售额</th>
+<th align="center">月份</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">张三</td>
+<td align="center">5000</td>
+<td align="center">1月</td>
+</tr>
+<tr>
+<td align="center">李四</td>
+<td align="center">3000</td>
+<td align="center">2月</td>
+</tr>
+<tr>
+<td align="center">张三</td>
+<td align="center">4000</td>
+<td align="center">1月</td>
+</tr>
+<tr>
+<td align="center">王五</td>
+<td align="center">3500</td>
+<td align="center">3月</td>
+</tr>
+<tr>
+<td align="center">张三</td>
+<td align="center">4500</td>
+<td align="center">2月</td>
+</tr>
+</tbody></table>
+<h3 id="使用-SUMIF："><a href="#使用-SUMIF：" class="headerlink" title="使用 SUMIF："></a>使用 <code>SUMIF</code>：</h3><p>假设你只想计算 <strong>张三</strong> 的总销售额：</p>
+<figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">=<span class="selector-tag">SUMIF</span>(<span class="attribute">A2</span>:A6, <span class="string">&quot;张三&quot;</span>, <span class="attribute">B2</span>:B6)</span><br></pre></td></tr></table></figure>
+
+<p>结果：<code>13500</code>。</p>
+<h3 id="使用-SUMIFS："><a href="#使用-SUMIFS：" class="headerlink" title="使用 SUMIFS："></a>使用 <code>SUMIFS</code>：</h3><p>假设你想计算 <strong>张三</strong> 在 <strong>1月</strong> 的销售额：</p>
+<figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">=<span class="selector-tag">SUMIFS</span>(<span class="attribute">B2</span>:B6, <span class="attribute">A2</span>:A6, <span class="string">&quot;张三&quot;</span>, <span class="attribute">C2</span>:C6, <span class="string">&quot;1月&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+<p>结果：<code>9000</code>（5000 + 4000）。</p>
+<h2 id="3-总结："><a href="#3-总结：" class="headerlink" title="3.总结："></a>3.总结：</h2><ul>
+<li>使用 <code>SUMIF</code> 时，只能处理 <strong>单一条件</strong> 的求和，适用于较简单的求和场景。</li>
+<li>使用 <code>SUMIFS</code> 时，可以处理 <strong>多个条件</strong> 的求和，适用于需要根据多个条件进行筛选和求和的复杂场景。</li>
+</ul>
+<p>希望这能帮助你更好地理解 <code>SUMIF</code> 和 <code>SUMIFS</code> 的区别和使用场景！</p>
+<h1 id="五、VLOOKUP"><a href="#五、VLOOKUP" class="headerlink" title="五、VLOOKUP"></a>五、VLOOKUP</h1><p><code>VLOOKUP</code> 是 Excel 中常用的查找函数之一，用于在一个数据表中根据某个条件查找值，并返回该值所在行的其他列的数据。它非常适合用于基于某个关键字从大型数据表中检索相关信息。</p>
+<h2 id="1-VLOOKUP-函数简介"><a href="#1-VLOOKUP-函数简介" class="headerlink" title="1. VLOOKUP 函数简介"></a>1. <code>VLOOKUP</code> 函数简介</h2><p><code>VLOOKUP</code> 的全称是 <strong>Vertical Lookup</strong>，意思是 <strong>垂直查找</strong>。它在数据表的第一列中查找一个值，然后返回该值所在行其他列的内容。</p>
+<h3 id="语法：-6"><a href="#语法：-6" class="headerlink" title="语法："></a>语法：</h3><figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">VLOOKUP</span>(lookup_value, table_array, col_index_num, [range_lookup])</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>lookup_value</strong>：你想要查找的值。可以是单元格引用或具体的数值或文本。</li>
+<li><strong>table_array</strong>：查找的范围或表格。查找值将从这一范围的第一列开始查找。</li>
+<li><strong>col_index_num</strong>：返回的值所在列的列号。列号是相对于 <code>table_array</code> 的第一列而言的。例如，<code>1</code> 表示 <code>table_array</code> 的第一列，<code>2</code> 表示第二列，依此类推。</li>
+<li>**[range_lookup]**：可选参数，决定是否进行近似匹配。<ul>
+<li><strong>TRUE</strong> 或省略：进行近似匹配（默认）。如果没有精确匹配，则返回小于 <code>lookup_value</code> 的最大值。</li>
+<li><strong>FALSE</strong>：进行精确匹配。如果找不到精确匹配，返回 <code>#N/A</code> 错误。</li>
+</ul>
+</li>
+</ul>
+<h2 id="2-VLOOKUP-示例"><a href="#2-VLOOKUP-示例" class="headerlink" title="2. VLOOKUP 示例"></a>2. <code>VLOOKUP</code> 示例</h2><p>假设你有一个员工信息表，包含员工的 ID、姓名、部门等信息。你希望根据员工的 ID 查找对应的姓名。</p>
+<table>
+<thead>
+<tr>
+<th align="center">员工ID</th>
+<th align="center">姓名</th>
+<th align="center">部门</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">1001</td>
+<td align="center">张三</td>
+<td align="center">财务部</td>
+</tr>
+<tr>
+<td align="center">1002</td>
+<td align="center">李四</td>
+<td align="center">市场部</td>
+</tr>
+<tr>
+<td align="center">1003</td>
+<td align="center">王五</td>
+<td align="center">销售部</td>
+</tr>
+<tr>
+<td align="center">1004</td>
+<td align="center">赵六</td>
+<td align="center">人事部</td>
+</tr>
+</tbody></table>
+<h3 id="查找员工ID为-1003-的姓名"><a href="#查找员工ID为-1003-的姓名" class="headerlink" title="查找员工ID为 1003 的姓名"></a>查找员工ID为 <code>1003</code> 的姓名</h3><p>公式：</p>
+<figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">=<span class="built_in">VLOOKUP</span>(<span class="number">1003</span>, A2:C5, <span class="number">2</span>, FALSE)</span><br></pre></td></tr></table></figure>
+
+<p>解释：</p>
+<ul>
+<li><code>1003</code>：查找值是 <code>1003</code>。</li>
+<li><code>A2:C5</code>：查找的范围是 A2 到 C5。</li>
+<li><code>2</code>：返回查找值所在行的第2列，即“姓名”列。</li>
+<li><code>FALSE</code>：精确匹配，只有找到员工ID为 <code>1003</code> 时才会返回姓名。</li>
+</ul>
+<p>结果：<code>王五</code></p>
+<h3 id="查找员工ID为-1005-的姓名（不存在该ID）"><a href="#查找员工ID为-1005-的姓名（不存在该ID）" class="headerlink" title="查找员工ID为 1005 的姓名（不存在该ID）"></a>查找员工ID为 <code>1005</code> 的姓名（不存在该ID）</h3><p>公式：</p>
+<figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">=<span class="built_in">VLOOKUP</span>(<span class="number">1005</span>, A2:C5, <span class="number">2</span>, FALSE)</span><br></pre></td></tr></table></figure>
+
+<p>结果：<code>#N/A</code>，因为找不到 ID 为 <code>1005</code> 的员工。</p>
+<hr>
+<h2 id="3-使用-VLOOKUP-时的注意事项"><a href="#3-使用-VLOOKUP-时的注意事项" class="headerlink" title="3. 使用 VLOOKUP 时的注意事项"></a>3. 使用 <code>VLOOKUP</code> 时的注意事项</h2><h3 id="3-1-查找值必须位于-table-array-的第一列"><a href="#3-1-查找值必须位于-table-array-的第一列" class="headerlink" title="3.1. 查找值必须位于 table_array 的第一列"></a>3.1. <strong>查找值必须位于 <code>table_array</code> 的第一列</strong></h3><p><code>VLOOKUP</code> 总是从 <code>table_array</code> 的 <strong>第一列</strong> 开始查找，因此，查找值必须在 <code>table_array</code> 的第一列。否则，<code>VLOOKUP</code> 无法工作。</p>
+<h3 id="3-2-近似匹配（TRUE-或省略）"><a href="#3-2-近似匹配（TRUE-或省略）" class="headerlink" title="3.2. 近似匹配（TRUE 或省略）"></a>3.2. <strong>近似匹配（<code>TRUE</code> 或省略）</strong></h3><p>如果 <code>[range_lookup]</code> 为 <code>TRUE</code> 或省略，<code>VLOOKUP</code> 会执行近似匹配。此时，查找值必须按升序排列，否则可能得到不准确的结果。</p>
+<ul>
+<li>如果你希望进行近似匹配（例如查找一个介于两个值之间的值），请确保查找列已按升序排列。</li>
+<li>近似匹配的常见用途包括计算税率表、价格表等。</li>
+</ul>
+<h3 id="3-3-精确匹配（FALSE）"><a href="#3-3-精确匹配（FALSE）" class="headerlink" title="3.3. 精确匹配（FALSE）"></a>3.3. <strong>精确匹配（<code>FALSE</code>）</strong></h3><p>如果 <code>[range_lookup]</code> 为 <code>FALSE</code>，<code>VLOOKUP</code> 将执行 <strong>精确匹配</strong>。如果查找值没有找到，<code>VLOOKUP</code> 将返回 <code>#N/A</code> 错误。</p>
+<h3 id="3-4-列号必须大于等于-2"><a href="#3-4-列号必须大于等于-2" class="headerlink" title="3.4. 列号必须大于等于 2"></a>3.4. <strong>列号必须大于等于 2</strong></h3><p><code>VLOOKUP</code> 只能返回查找值所在行的 <strong>后续列</strong> 的数据，即 <code>col_index_num</code> 必须大于等于 2。如果你想返回查找列的值，通常会使用 <code>INDEX</code> 和 <code>MATCH</code> 函数的组合。</p>
+<h3 id="3-5-VLOOKUP-的限制"><a href="#3-5-VLOOKUP-的限制" class="headerlink" title="3.5. VLOOKUP 的限制"></a>3.5. <strong><code>VLOOKUP</code> 的限制</strong></h3><ul>
+<li><code>VLOOKUP</code> 只能查找 <strong>左侧</strong> 的列，不能反向查找。例如，你不能在表格的最后一列查找某个值并返回第一列的结果。</li>
+<li>它只能返回 <strong>一列数据</strong>，如果你需要从多个列中返回结果，可以使用多次 <code>VLOOKUP</code> 或者考虑其他函数组合，如 <code>INDEX</code> 和 <code>MATCH</code>。</li>
+</ul>
+<hr>
+<h2 id="4-VLOOKUP-的常见应用场景"><a href="#4-VLOOKUP-的常见应用场景" class="headerlink" title="4. VLOOKUP 的常见应用场景"></a>4. <code>VLOOKUP</code> 的常见应用场景</h2><h3 id="4-1-查找价格"><a href="#4-1-查找价格" class="headerlink" title="4.1. 查找价格"></a>4.1. <strong>查找价格</strong></h3><p>假设你有一个商品价格表，想根据商品 ID 查找对应商品的价格：</p>
+<table>
+<thead>
+<tr>
+<th align="center">商品ID</th>
+<th align="center">商品名称</th>
+<th align="center">单价</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">A101</td>
+<td align="center">商品A</td>
+<td align="center">100元</td>
+</tr>
+<tr>
+<td align="center">A102</td>
+<td align="center">商品B</td>
+<td align="center">150元</td>
+</tr>
+<tr>
+<td align="center">A103</td>
+<td align="center">商品C</td>
+<td align="center">200元</td>
+</tr>
+</tbody></table>
+<p>公式：</p>
+<figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">=<span class="built_in">VLOOKUP</span>(&quot;A102&quot;, A2:C4, <span class="number">3</span>, FALSE)</span><br></pre></td></tr></table></figure>
+
+<p>结果：<code>150元</code>（返回商品B的价格）。</p>
+<h3 id="4-2-查找员工的部门"><a href="#4-2-查找员工的部门" class="headerlink" title="4.2. 查找员工的部门"></a>4.2. <strong>查找员工的部门</strong></h3><p>假设你有一个员工表，根据员工ID查找其所属的部门：</p>
+<table>
+<thead>
+<tr>
+<th align="center">员工ID</th>
+<th align="center">姓名</th>
+<th align="center">部门</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">1001</td>
+<td align="center">张三</td>
+<td align="center">财务部</td>
+</tr>
+<tr>
+<td align="center">1002</td>
+<td align="center">李四</td>
+<td align="center">市场部</td>
+</tr>
+<tr>
+<td align="center">1003</td>
+<td align="center">王五</td>
+<td align="center">销售部</td>
+</tr>
+<tr>
+<td align="center">1004</td>
+<td align="center">赵六</td>
+<td align="center">人事部</td>
+</tr>
+</tbody></table>
+<p>公式：</p>
+<figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">=<span class="built_in">VLOOKUP</span>(<span class="number">1002</span>, A2:C5, <span class="number">3</span>, FALSE)</span><br></pre></td></tr></table></figure>
+
+<p>结果：<code>市场部</code>（返回员工ID为1002的部门）。</p>
+<h3 id="4-3-使用-VLOOKUP-进行评分查询"><a href="#4-3-使用-VLOOKUP-进行评分查询" class="headerlink" title="4.3. 使用 VLOOKUP 进行评分查询"></a>4.3. <strong>使用 <code>VLOOKUP</code> 进行评分查询</strong></h3><p>假设你有一个分数等级表，根据学生的分数返回相应的等级：</p>
+<table>
+<thead>
+<tr>
+<th align="center">分数范围</th>
+<th align="center">等级</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">90-100</td>
+<td align="center">A</td>
+</tr>
+<tr>
+<td align="center">80-89</td>
+<td align="center">B</td>
+</tr>
+<tr>
+<td align="center">70-79</td>
+<td align="center">C</td>
+</tr>
+<tr>
+<td align="center">60-69</td>
+<td align="center">D</td>
+</tr>
+<tr>
+<td align="center">0-59</td>
+<td align="center">F</td>
+</tr>
+</tbody></table>
+<p>公式：</p>
+<figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">=<span class="built_in">VLOOKUP</span>(<span class="number">85</span>, A2:B6, <span class="number">2</span>, TRUE)</span><br></pre></td></tr></table></figure>
+
+<p>结果：<code>B</code>（因为85分落在“80-89”区间）。</p>
+<hr>
+<h2 id="5-总结"><a href="#5-总结" class="headerlink" title="5. 总结"></a>5. 总结</h2><ul>
+<li><code>VLOOKUP</code> 是一个强大的查找工具，适用于从一个数据表中根据条件查找数据并返回相关信息。</li>
+<li>它只能在查找值的 <strong>左侧列</strong> 进行查找，并且只能返回查找值所在行的 <strong>后续列</strong> 数据。</li>
+<li>需要确保查找表格的排列和选择适当的匹配类型（精确或近似匹配）。</li>
+</ul>
+<h1 id="六、INDEX-MATCH"><a href="#六、INDEX-MATCH" class="headerlink" title="六、INDEX &amp; MATCH"></a>六、INDEX &amp; MATCH</h1><h3 id="INDEX-和-MATCH-函数介绍"><a href="#INDEX-和-MATCH-函数介绍" class="headerlink" title="INDEX 和 MATCH 函数介绍"></a><code>INDEX</code> 和 <code>MATCH</code> 函数介绍</h3><p><code>INDEX</code> 和 <code>MATCH</code> 函数是 Excel 中非常强大的函数，可以单独使用，也可以结合起来使用，完成更为复杂和灵活的查找操作。与传统的 <code>VLOOKUP</code> 或 <code>HLOOKUP</code> 不同，<code>INDEX</code> 和 <code>MATCH</code> 提供了更高的灵活性和效率，尤其是在处理大数据集时，能够解决 <code>VLOOKUP</code> 无法处理的一些问题。</p>
+<p>下面，我将分别介绍这两个函数，并详细说明它们如何结合使用。</p>
+<hr>
+<h2 id="1-INDEX-函数"><a href="#1-INDEX-函数" class="headerlink" title="1. INDEX 函数"></a>1. <code>INDEX</code> 函数</h2><p><code>INDEX</code> 函数用于从一个数据范围中返回一个值，基于给定的行号和列号。它有两种使用方式：<strong>数组形式</strong> 和 <strong>引用形式</strong>。</p>
+<h3 id="数组形式（最常用）"><a href="#数组形式（最常用）" class="headerlink" title="数组形式（最常用）"></a><strong>数组形式（最常用）</strong></h3><figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">INDEX</span>(array, row_num, [column_num])</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>array</strong>：包含数据的数组或数据范围。</li>
+<li><strong>row_num</strong>：数据范围中的行号，用于指定要返回的值所在的行。</li>
+<li>**[column_num]**：可选。数据范围中的列号，用于指定要返回的值所在的列。如果是单列或单行数据，则可以省略此项。</li>
+</ul>
+<h3 id="示例-1：从单列数组中提取一个值"><a href="#示例-1：从单列数组中提取一个值" class="headerlink" title="示例 1：从单列数组中提取一个值"></a>示例 1：从单列数组中提取一个值</h3><p>假设有如下商品列表：</p>
+<table>
+<thead>
+<tr>
+<th align="left">商品</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">商品A</td>
+</tr>
+<tr>
+<td align="left">商品B</td>
+</tr>
+<tr>
+<td align="left">商品C</td>
+</tr>
+<tr>
+<td align="left">商品D</td>
+</tr>
+</tbody></table>
+<p>你想返回第三行（即商品C）。</p>
+<p>公式：</p>
+<figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">=<span class="built_in">INDEX</span>(A1:A4, <span class="number">3</span>)</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>A1:A4</strong> 是数据范围。</li>
+<li><strong>3</strong> 是行号，表示返回第三行的值。</li>
+</ul>
+<p>结果：<code>商品C</code></p>
+<h3 id="示例-2：从二维数组中提取一个值"><a href="#示例-2：从二维数组中提取一个值" class="headerlink" title="示例 2：从二维数组中提取一个值"></a>示例 2：从二维数组中提取一个值</h3><p>假设有如下员工信息表：</p>
+<table>
+<thead>
+<tr>
+<th align="center">员工ID</th>
+<th align="center">姓名</th>
+<th align="center">部门</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">1001</td>
+<td align="center">张三</td>
+<td align="center">财务部</td>
+</tr>
+<tr>
+<td align="center">1002</td>
+<td align="center">李四</td>
+<td align="center">市场部</td>
+</tr>
+<tr>
+<td align="center">1003</td>
+<td align="center">王五</td>
+<td align="center">销售部</td>
+</tr>
+<tr>
+<td align="center">1004</td>
+<td align="center">赵六</td>
+<td align="center">人事部</td>
+</tr>
+</tbody></table>
+<p>你希望返回第二行第三列的值（即第二个员工的部门）。</p>
+<p>公式：</p>
+<figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">=<span class="built_in">INDEX</span>(A1:C4, <span class="number">2</span>, <span class="number">3</span>)</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>A1:C4</strong> 是数据范围。</li>
+<li><strong>2</strong> 是行号，表示第二行。</li>
+<li><strong>3</strong> 是列号，表示第三列（部门列）。</li>
+</ul>
+<p>结果：<code>市场部</code></p>
+<hr>
+<h2 id="2-MATCH-函数"><a href="#2-MATCH-函数" class="headerlink" title="2. MATCH 函数"></a>2. <code>MATCH</code> 函数</h2><p><code>MATCH</code> 函数用于在指定的范围中查找某个值，并返回该值的相对位置。与 <code>INDEX</code> 不同，<code>MATCH</code> 只返回 <strong>位置索引</strong>，不返回实际的值。</p>
+<h3 id="语法：-7"><a href="#语法：-7" class="headerlink" title="语法："></a>语法：</h3><figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">MATCH</span>(lookup_value, lookup_array, [match_type])</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>lookup_value</strong>：你要查找的值，可以是一个具体的数值、文本、或者单元格引用。</li>
+<li><strong>lookup_array</strong>：包含要查找值的数组或范围。</li>
+<li>**[match_type]**：可选。指定匹配的类型：<ul>
+<li><strong>1</strong>（默认）：查找小于或等于 <code>lookup_value</code> 的最大值。要求 <code>lookup_array</code> 按升序排列。</li>
+<li><strong>0</strong>：查找精确匹配的值。</li>
+<li><strong>1</strong>：查找大于或等于 <code>lookup_value</code> 的最小值。要求 <code>lookup_array</code> 按降序排列。</li>
+</ul>
+</li>
+</ul>
+<h3 id="示例：查找某个值的位置信息"><a href="#示例：查找某个值的位置信息" class="headerlink" title="示例：查找某个值的位置信息"></a>示例：查找某个值的位置信息</h3><p>假设有如下员工信息表：</p>
+<table>
+<thead>
+<tr>
+<th align="center">员工ID</th>
+<th align="center">姓名</th>
+<th align="center">部门</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">1001</td>
+<td align="center">张三</td>
+<td align="center">财务部</td>
+</tr>
+<tr>
+<td align="center">1002</td>
+<td align="center">李四</td>
+<td align="center">市场部</td>
+</tr>
+<tr>
+<td align="center">1003</td>
+<td align="center">王五</td>
+<td align="center">销售部</td>
+</tr>
+<tr>
+<td align="center">1004</td>
+<td align="center">赵六</td>
+<td align="center">人事部</td>
+</tr>
+</tbody></table>
+<p>你希望找出 “王五” 在表中的位置。</p>
+<p>公式：</p>
+<figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">=<span class="built_in">MATCH</span>(&quot;王五&quot;, B1:B4, <span class="number">0</span>)</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>“王五”</strong> 是查找值。</li>
+<li><strong>B1:B4</strong> 是包含姓名的范围。</li>
+<li><strong>0</strong> 表示进行精确匹配。</li>
+</ul>
+<p>结果：<code>3</code>，即王五在第3行。</p>
+<hr>
+<h2 id="3-INDEX-和-MATCH-组合使用"><a href="#3-INDEX-和-MATCH-组合使用" class="headerlink" title="3. INDEX 和 MATCH 组合使用"></a>3. <code>INDEX</code> 和 <code>MATCH</code> 组合使用</h2><p><code>INDEX</code> 和 <code>MATCH</code> 的组合使用，能实现更灵活和强大的查找功能。通过使用 <code>MATCH</code> 查找行号或列号，<code>INDEX</code> 可以根据这个位置返回对应的数据。结合 <code>INDEX</code> 和 <code>MATCH</code> 可以克服 <code>VLOOKUP</code> 的一些限制（比如只能在查找表的第一列查找）。</p>
+<h3 id="例子：通过-INDEX-和-MATCH-查找员工的部门"><a href="#例子：通过-INDEX-和-MATCH-查找员工的部门" class="headerlink" title="例子：通过 INDEX 和 MATCH 查找员工的部门"></a>例子：通过 <code>INDEX</code> 和 <code>MATCH</code> 查找员工的部门</h3><p>假设你有一个员工信息表，如下所示：</p>
+<table>
+<thead>
+<tr>
+<th align="center">员工ID</th>
+<th align="center">姓名</th>
+<th align="center">部门</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">1001</td>
+<td align="center">张三</td>
+<td align="center">财务部</td>
+</tr>
+<tr>
+<td align="center">1002</td>
+<td align="center">李四</td>
+<td align="center">市场部</td>
+</tr>
+<tr>
+<td align="center">1003</td>
+<td align="center">王五</td>
+<td align="center">销售部</td>
+</tr>
+<tr>
+<td align="center">1004</td>
+<td align="center">赵六</td>
+<td align="center">人事部</td>
+</tr>
+</tbody></table>
+<p>你希望根据员工的姓名查找其所属的部门。</p>
+<p><strong>步骤：</strong></p>
+<ol>
+<li>使用 <code>MATCH</code> 查找姓名所在行号。</li>
+<li>使用 <code>INDEX</code> 根据行号返回部门。</li>
+</ol>
+<p><strong>公式：</strong></p>
+<figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">=<span class="built_in">INDEX</span>(C1:C4, MATCH(&quot;王五&quot;, B1:B4, <span class="number">0</span>))</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><code>MATCH(&quot;王五&quot;, B1:B4, 0)</code> 返回 <code>&quot;王五&quot;</code> 在姓名列中的位置（即第3行）。</li>
+<li><code>INDEX(C1:C4, 3)</code> 根据行号 <code>3</code> 从部门列（C列）中返回对应的部门。</li>
+</ul>
+<p>结果：<code>销售部</code></p>
+<h3 id="例子：通过-INDEX-和-MATCH-查找指定员工的姓名"><a href="#例子：通过-INDEX-和-MATCH-查找指定员工的姓名" class="headerlink" title="例子：通过 INDEX 和 MATCH 查找指定员工的姓名"></a>例子：通过 <code>INDEX</code> 和 <code>MATCH</code> 查找指定员工的姓名</h3><p>如果你要根据员工ID查找对应的姓名，可以使用类似的组合。</p>
+<p>假设你有一个员工ID列（A列）和姓名列（B列）：</p>
+<table>
+<thead>
+<tr>
+<th align="center">员工ID</th>
+<th align="center">姓名</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">1001</td>
+<td align="center">张三</td>
+</tr>
+<tr>
+<td align="center">1002</td>
+<td align="center">李四</td>
+</tr>
+<tr>
+<td align="center">1003</td>
+<td align="center">王五</td>
+</tr>
+<tr>
+<td align="center">1004</td>
+<td align="center">赵六</td>
+</tr>
+</tbody></table>
+<p>你希望根据员工ID查找姓名，假设要查找员工ID为 <code>1003</code> 的姓名。</p>
+<p><strong>步骤：</strong></p>
+<ol>
+<li>使用 <code>MATCH</code> 查找员工ID所在的行号。</li>
+<li>使用 <code>INDEX</code> 根据行号返回姓名。</li>
+</ol>
+<p><strong>公式：</strong></p>
+<figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">=<span class="built_in">INDEX</span>(B1:B4, MATCH(<span class="number">1003</span>, A1:A4, <span class="number">0</span>))</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><code>MATCH(1003, A1:A4, 0)</code> 查找员工ID <code>1003</code> 在 A 列的位置（即第3行）。</li>
+<li><code>INDEX(B1:B4, 3)</code> 返回该行对应的姓名，即第3行的姓名 <code>王五</code>。</li>
+</ul>
+<p>结果：<code>王五</code></p>
+<hr>
+<h2 id="4-INDEX-和-MATCH-的优点"><a href="#4-INDEX-和-MATCH-的优点" class="headerlink" title="4. INDEX 和 MATCH 的优点"></a>4. <code>INDEX</code> 和 <code>MATCH</code> 的优点</h2><ul>
+<li><strong>灵活性</strong>：<code>INDEX</code> 和 <code>MATCH</code> 组合可以从任何位置（包括不在第一列的地方）查找数据，而 <code>VLOOKUP</code> 只能从数据范围的第一列查找。</li>
+<li><strong>效率</strong>：在处理非常大的数据集时，<code>INDEX</code> 和 <code>MATCH</code> 的组合通常比 <code>VLOOKUP</code> 更高效，尤其是在数据列数很大时。</li>
+<li><strong>支持横向查找</strong>：<code>VLOOKUP</code> 是纵向查找，<code>HLOOKUP</code> 是横向查找，而 <code>INDEX</code> 和 <code>MATCH</code> 可以在任何方向上查找数据，提供更多的灵活性。</li>
+</ul>
+<hr>
+<h2 id="5-总结-1"><a href="#5-总结-1" class="headerlink" title="5. 总结"></a>5. 总结</h2><ul>
+<li><strong><code>INDEX</code></strong> 用于返回数组中指定位置的值。</li>
+<li><strong><code>MATCH</code></strong> 用于查找某个值在数组中的位置。</li>
+<li><strong><code>INDEX</code> 和 <code>MATCH</code> 的组合</strong> 提供了比 <code>VLOOKUP</code> 更强大和灵活的查找能力，尤其是在处理复杂的数据结构时。</li>
+</ul>
+<p>通过将 <code>INDEX</code> 和 <code>MATCH</code> 组合使用，可以进行灵活的数据查找和返回操作，弥补了 <code>VLOOKUP</code> 和 <code>HLOOKUP</code> 函数的一些局限性。</p>
+</article><div class="post-copyright"><div class="copyright-cc-box"><i class="anzhiyufont anzhiyu-icon-copyright"></i></div><div class="post-copyright__author_box"><a class="post-copyright__author_img" href="/" title="头像"><img class="post-copyright__author_img_back" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cloudflare-imgbed-ebz.pages.dev/file/1734418074964.jpeg" title="头像" alt="头像"><img class="post-copyright__author_img_front" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cloudflare-imgbed-ebz.pages.dev/file/1734418074964.jpeg" title="头像" alt="头像"></a><div class="post-copyright__author_name">白开水船长</div><div class="post-copyright__author_desc">东隅已逝，桑榆非晚</div></div><div class="post-copyright__post__info"><a class="post-copyright__original" title="该文章为原创文章，注意版权协议" href="https://cq230.github.io/posts/b8a31387.html">原创</a><a class="post-copyright-title"><span onclick="rm.copyPageUrl('https://cq230.github.io/posts/b8a31387.html')">Excel使用技巧</span></a></div><div class="post-tools" id="post-tools"><div class="post-tools-left"><div class="rewardLeftButton"></div><div class="shareRight"><div class="share-link mobile"><div class="share-qrcode"><div class="share-button" title="使用手机访问这篇文章"><i class="anzhiyufont anzhiyu-icon-qrcode"></i></div><div class="share-main"><div class="share-main-all"><div id="qrcode" title="https://cq230.github.io/posts/b8a31387.html"></div><div class="reward-dec">使用手机访问这篇文章</div></div></div></div></div><script>function copyCurrentPageUrl() {
+  var currentPageUrl = window.location.href;
+  var input = document.createElement("input");
+  input.setAttribute("value", currentPageUrl);
+  document.body.appendChild(input);
+  input.select();
+  input.setSelectionRange(0, 99999);
+  document.execCommand("copy");
+  document.body.removeChild(input);
+}</script><div class="share-link copyurl"><div class="share-button" id="post-share-url" title="复制链接" onclick="copyCurrentPageUrl()"><i class="anzhiyufont anzhiyu-icon-link"></i></div></div></div></div></div><div class="post-copyright__notice"><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://cq230.github.io" target="_blank">白开水船长</a>！</span></div></div><div class="post-tools-right"><div class="tag_share"><div class="post-meta__box"><div class="post-meta__box__tag-list"><a class="post-meta__box__tags" href="/tags/Excel/"><span class="tags-punctuation"> <i class="anzhiyufont anzhiyu-icon-tag"></i></span>Excel<span class="tagsPageCount">1</span></a><a class="post-meta__box__tags" href="/tags/%E5%B7%A5%E5%85%B7/"><span class="tags-punctuation"> <i class="anzhiyufont anzhiyu-icon-tag"></i></span>工具<span class="tagsPageCount">3</span></a></div></div></div></div><div class="relatedPosts"><div class="headline"><i class="anzhiyufont anzhiyu-icon-thumbs-up fa-fw" style="font-size: 1.5rem; margin-right: 4px"></i><span>喜欢这篇文章的人也看了</span></div><div class="relatedPosts-list"><div><a href="/posts/201c4457.html" title="Tableau使用技巧"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://bing.ee123.net/img/rand?_r_=1730cbf0-c256-9257-25c2-b3cd26bad69c" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2024-11-16</div><div class="title">Tableau使用技巧</div></div></a></div><div><a href="/posts/3989239e.html" title="API整理"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://bing.ee123.net/img/rand?_r_=b8495940-cf33-0ec4-b851-a92287344f69" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2024-12-05</div><div class="title">API整理</div></div></a></div></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="anzhiyufont anzhiyu-icon-comments"></i><span> 评论</span></div><div class="comment-randomInfo"><a onclick="anzhiyu.addRandomCommentInfo()" href="javascript:void(0)">匿名评论</a><a href="/privacy" style="margin-left: 4px">隐私政策</a></div><div class="comment-tips" id="comment-tips"><span>✅ 你无需删除空行，直接评论以获取最佳展示效果</span></div></div><div class="comment-wrap"><div><div id="twikoo-wrap"></div></div></div></div><div class="comment-barrage"></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-content"><div class="author-info__sayhi" id="author-info__sayhi" onclick="anzhiyu.changeSayHelloText()"></div><div class="author-info-avatar"><img class="avatar-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cloudflare-imgbed-ebz.pages.dev/file/1734418074964.jpeg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-status"><img class="g-status" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://bu.dusays.com/2023/08/24/64e6ce9c507bb.png" alt="status"/></div></div><div class="author-info__description"><div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">这有关于<b style="color:#fff">产品、设计、开发</b>相关的问题和看法，还有<b style="color:#fff">文章翻译</b>和<b style="color:#fff">分享</b>。</div><div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">相信你可以在这里找到对你有用的<b style="color:#fff">知识</b>和<b style="color:#fff">教程</b>。</div></div><div class="author-info__bottom-group"><a class="author-info__bottom-group-left" href="/"><h1 class="author-info__name">白开水船长</h1><div class="author-info__desc">东隅已逝，桑榆非晚</div></a><div class="card-info-social-icons is-center"><a class="social-icon faa-parent animated-hover" href="https://space.bilibili.com/348489818" target="_blank" title="BiliBili"><i class="anzhiyufont anzhiyu-icon-bilibili"></i></a></div></div></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-bullhorn anzhiyu-shake"></i><span>公告</span></div><div class="announcement_content">施工中...</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-bars"></i><span>文章目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%80%E3%80%81Excel-%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C"><span class="toc-number">1.</span> <span class="toc-text">一、Excel 常用操作</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%8C%E3%80%81EDATE-DATE"><span class="toc-number">2.</span> <span class="toc-text">二、EDATE &amp; DATE</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-EDATE-%E5%87%BD%E6%95%B0"><span class="toc-number">2.1.</span> <span class="toc-text">1. EDATE 函数</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AF%AD%E6%B3%95%EF%BC%9A"><span class="toc-number">2.1.1.</span> <span class="toc-text">语法：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A4%BA%E4%BE%8B%EF%BC%9A"><span class="toc-number">2.1.2.</span> <span class="toc-text">示例：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B8%B8%E8%A7%81%E5%BA%94%E7%94%A8%EF%BC%9A"><span class="toc-number">2.1.3.</span> <span class="toc-text">常见应用：</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-DATE-%E5%87%BD%E6%95%B0"><span class="toc-number">2.2.</span> <span class="toc-text">2. DATE 函数</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AF%AD%E6%B3%95%EF%BC%9A-1"><span class="toc-number">2.2.1.</span> <span class="toc-text">语法：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A4%BA%E4%BE%8B%EF%BC%9A-1"><span class="toc-number">2.2.2.</span> <span class="toc-text">示例：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%89%B9%E6%AE%8A%E6%83%85%E5%86%B5%EF%BC%9A"><span class="toc-number">2.2.3.</span> <span class="toc-text">特殊情况：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B8%B8%E8%A7%81%E5%BA%94%E7%94%A8%EF%BC%9A-1"><span class="toc-number">2.2.4.</span> <span class="toc-text">常见应用：</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E6%80%BB%E7%BB%93%E5%AF%B9%E6%AF%94%EF%BC%9A"><span class="toc-number">2.3.</span> <span class="toc-text">3.总结对比：</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%89%E3%80%81SUM-SUBTOTAL"><span class="toc-number">3.</span> <span class="toc-text">三、SUM &amp; SUBTOTAL</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-SUM-%E5%87%BD%E6%95%B0"><span class="toc-number">3.1.</span> <span class="toc-text">1. SUM 函数</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AF%AD%E6%B3%95%EF%BC%9A-2"><span class="toc-number">3.1.1.</span> <span class="toc-text">语法：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A4%BA%E4%BE%8B%EF%BC%9A-2"><span class="toc-number">3.1.2.</span> <span class="toc-text">示例：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%89%B9%E7%82%B9%EF%BC%9A"><span class="toc-number">3.1.3.</span> <span class="toc-text">特点：</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-SUBTOTAL-%E5%87%BD%E6%95%B0"><span class="toc-number">3.2.</span> <span class="toc-text">2. SUBTOTAL 函数</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AF%AD%E6%B3%95%EF%BC%9A-3"><span class="toc-number">3.2.1.</span> <span class="toc-text">语法：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A4%BA%E4%BE%8B%EF%BC%9A-3"><span class="toc-number">3.2.2.</span> <span class="toc-text">示例：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B8%B8%E8%A7%81%E7%9A%84-function-num-%E5%8F%82%E6%95%B0%EF%BC%9A"><span class="toc-number">3.2.3.</span> <span class="toc-text">常见的 function_num 参数：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A4%BA%E4%BE%8B%EF%BC%9A%E4%B8%8D%E5%90%8C%E5%8A%9F%E8%83%BD%E7%9A%84-function-num"><span class="toc-number">3.2.4.</span> <span class="toc-text">示例：不同功能的 function_num</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-SUM-%E4%B8%8E-SUBTOTAL-%E7%9A%84%E5%8C%BA%E5%88%AB"><span class="toc-number">3.3.</span> <span class="toc-text">3. SUM 与 SUBTOTAL 的区别</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-SUBTOTAL-%E6%9B%B4%E9%AB%98%E6%95%88%E7%9A%84%E4%BD%BF%E7%94%A8%E5%9C%BA%E6%99%AF%EF%BC%9A"><span class="toc-number">3.4.</span> <span class="toc-text">4. SUBTOTAL 更高效的使用场景：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-%E6%80%BB%E7%BB%93%EF%BC%9A"><span class="toc-number">3.5.</span> <span class="toc-text">5.总结：</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%9B%9B%E3%80%81SUMIF-SUMIFS"><span class="toc-number">4.</span> <span class="toc-text">四、SUMIF &amp; SUMIFS</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-SUMIF-%E5%87%BD%E6%95%B0"><span class="toc-number">4.1.</span> <span class="toc-text">1. SUMIF 函数</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AF%AD%E6%B3%95%EF%BC%9A-4"><span class="toc-number">4.1.1.</span> <span class="toc-text">语法：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A4%BA%E4%BE%8B%EF%BC%9A-4"><span class="toc-number">4.1.2.</span> <span class="toc-text">示例：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B8%B8%E8%A7%81%E7%94%A8%E6%B3%95%EF%BC%9A"><span class="toc-number">4.1.3.</span> <span class="toc-text">常见用法：</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-SUMIFS-%E5%87%BD%E6%95%B0"><span class="toc-number">4.2.</span> <span class="toc-text">2. SUMIFS 函数</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AF%AD%E6%B3%95%EF%BC%9A-5"><span class="toc-number">4.2.1.</span> <span class="toc-text">语法：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A4%BA%E4%BE%8B%EF%BC%9A-5"><span class="toc-number">4.2.2.</span> <span class="toc-text">示例：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B8%B8%E8%A7%81%E7%94%A8%E6%B3%95%EF%BC%9A-1"><span class="toc-number">4.2.3.</span> <span class="toc-text">常见用法：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#SUMIF-%E4%B8%8E-SUMIFS-%E7%9A%84%E5%8C%BA%E5%88%AB"><span class="toc-number">4.2.4.</span> <span class="toc-text">SUMIF 与 SUMIFS 的区别</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A4%BA%E4%BE%8B%E6%AF%94%E8%BE%83%EF%BC%9A"><span class="toc-number">4.2.5.</span> <span class="toc-text">示例比较：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8-SUMIF%EF%BC%9A"><span class="toc-number">4.2.6.</span> <span class="toc-text">使用 SUMIF：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8-SUMIFS%EF%BC%9A"><span class="toc-number">4.2.7.</span> <span class="toc-text">使用 SUMIFS：</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E6%80%BB%E7%BB%93%EF%BC%9A"><span class="toc-number">4.3.</span> <span class="toc-text">3.总结：</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%94%E3%80%81VLOOKUP"><span class="toc-number">5.</span> <span class="toc-text">五、VLOOKUP</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-VLOOKUP-%E5%87%BD%E6%95%B0%E7%AE%80%E4%BB%8B"><span class="toc-number">5.1.</span> <span class="toc-text">1. VLOOKUP 函数简介</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AF%AD%E6%B3%95%EF%BC%9A-6"><span class="toc-number">5.1.1.</span> <span class="toc-text">语法：</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-VLOOKUP-%E7%A4%BA%E4%BE%8B"><span class="toc-number">5.2.</span> <span class="toc-text">2. VLOOKUP 示例</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9F%A5%E6%89%BE%E5%91%98%E5%B7%A5ID%E4%B8%BA-1003-%E7%9A%84%E5%A7%93%E5%90%8D"><span class="toc-number">5.2.1.</span> <span class="toc-text">查找员工ID为 1003 的姓名</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9F%A5%E6%89%BE%E5%91%98%E5%B7%A5ID%E4%B8%BA-1005-%E7%9A%84%E5%A7%93%E5%90%8D%EF%BC%88%E4%B8%8D%E5%AD%98%E5%9C%A8%E8%AF%A5ID%EF%BC%89"><span class="toc-number">5.2.2.</span> <span class="toc-text">查找员工ID为 1005 的姓名（不存在该ID）</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E4%BD%BF%E7%94%A8-VLOOKUP-%E6%97%B6%E7%9A%84%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9"><span class="toc-number">5.3.</span> <span class="toc-text">3. 使用 VLOOKUP 时的注意事项</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#3-1-%E6%9F%A5%E6%89%BE%E5%80%BC%E5%BF%85%E9%A1%BB%E4%BD%8D%E4%BA%8E-table-array-%E7%9A%84%E7%AC%AC%E4%B8%80%E5%88%97"><span class="toc-number">5.3.1.</span> <span class="toc-text">3.1. 查找值必须位于 table_array 的第一列</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-2-%E8%BF%91%E4%BC%BC%E5%8C%B9%E9%85%8D%EF%BC%88TRUE-%E6%88%96%E7%9C%81%E7%95%A5%EF%BC%89"><span class="toc-number">5.3.2.</span> <span class="toc-text">3.2. 近似匹配（TRUE 或省略）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-3-%E7%B2%BE%E7%A1%AE%E5%8C%B9%E9%85%8D%EF%BC%88FALSE%EF%BC%89"><span class="toc-number">5.3.3.</span> <span class="toc-text">3.3. 精确匹配（FALSE）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-4-%E5%88%97%E5%8F%B7%E5%BF%85%E9%A1%BB%E5%A4%A7%E4%BA%8E%E7%AD%89%E4%BA%8E-2"><span class="toc-number">5.3.4.</span> <span class="toc-text">3.4. 列号必须大于等于 2</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-5-VLOOKUP-%E7%9A%84%E9%99%90%E5%88%B6"><span class="toc-number">5.3.5.</span> <span class="toc-text">3.5. VLOOKUP 的限制</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-VLOOKUP-%E7%9A%84%E5%B8%B8%E8%A7%81%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF"><span class="toc-number">5.4.</span> <span class="toc-text">4. VLOOKUP 的常见应用场景</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#4-1-%E6%9F%A5%E6%89%BE%E4%BB%B7%E6%A0%BC"><span class="toc-number">5.4.1.</span> <span class="toc-text">4.1. 查找价格</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-2-%E6%9F%A5%E6%89%BE%E5%91%98%E5%B7%A5%E7%9A%84%E9%83%A8%E9%97%A8"><span class="toc-number">5.4.2.</span> <span class="toc-text">4.2. 查找员工的部门</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-3-%E4%BD%BF%E7%94%A8-VLOOKUP-%E8%BF%9B%E8%A1%8C%E8%AF%84%E5%88%86%E6%9F%A5%E8%AF%A2"><span class="toc-number">5.4.3.</span> <span class="toc-text">4.3. 使用 VLOOKUP 进行评分查询</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-%E6%80%BB%E7%BB%93"><span class="toc-number">5.5.</span> <span class="toc-text">5. 总结</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%85%AD%E3%80%81INDEX-MATCH"><span class="toc-number">6.</span> <span class="toc-text">六、INDEX &amp; MATCH</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#INDEX-%E5%92%8C-MATCH-%E5%87%BD%E6%95%B0%E4%BB%8B%E7%BB%8D"><span class="toc-number">6.0.1.</span> <span class="toc-text">INDEX 和 MATCH 函数介绍</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-INDEX-%E5%87%BD%E6%95%B0"><span class="toc-number">6.1.</span> <span class="toc-text">1. INDEX 函数</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%95%B0%E7%BB%84%E5%BD%A2%E5%BC%8F%EF%BC%88%E6%9C%80%E5%B8%B8%E7%94%A8%EF%BC%89"><span class="toc-number">6.1.1.</span> <span class="toc-text">数组形式（最常用）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A4%BA%E4%BE%8B-1%EF%BC%9A%E4%BB%8E%E5%8D%95%E5%88%97%E6%95%B0%E7%BB%84%E4%B8%AD%E6%8F%90%E5%8F%96%E4%B8%80%E4%B8%AA%E5%80%BC"><span class="toc-number">6.1.2.</span> <span class="toc-text">示例 1：从单列数组中提取一个值</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A4%BA%E4%BE%8B-2%EF%BC%9A%E4%BB%8E%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E4%B8%AD%E6%8F%90%E5%8F%96%E4%B8%80%E4%B8%AA%E5%80%BC"><span class="toc-number">6.1.3.</span> <span class="toc-text">示例 2：从二维数组中提取一个值</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-MATCH-%E5%87%BD%E6%95%B0"><span class="toc-number">6.2.</span> <span class="toc-text">2. MATCH 函数</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AF%AD%E6%B3%95%EF%BC%9A-7"><span class="toc-number">6.2.1.</span> <span class="toc-text">语法：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A4%BA%E4%BE%8B%EF%BC%9A%E6%9F%A5%E6%89%BE%E6%9F%90%E4%B8%AA%E5%80%BC%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%BF%A1%E6%81%AF"><span class="toc-number">6.2.2.</span> <span class="toc-text">示例：查找某个值的位置信息</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-INDEX-%E5%92%8C-MATCH-%E7%BB%84%E5%90%88%E4%BD%BF%E7%94%A8"><span class="toc-number">6.3.</span> <span class="toc-text">3. INDEX 和 MATCH 组合使用</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BE%8B%E5%AD%90%EF%BC%9A%E9%80%9A%E8%BF%87-INDEX-%E5%92%8C-MATCH-%E6%9F%A5%E6%89%BE%E5%91%98%E5%B7%A5%E7%9A%84%E9%83%A8%E9%97%A8"><span class="toc-number">6.3.1.</span> <span class="toc-text">例子：通过 INDEX 和 MATCH 查找员工的部门</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BE%8B%E5%AD%90%EF%BC%9A%E9%80%9A%E8%BF%87-INDEX-%E5%92%8C-MATCH-%E6%9F%A5%E6%89%BE%E6%8C%87%E5%AE%9A%E5%91%98%E5%B7%A5%E7%9A%84%E5%A7%93%E5%90%8D"><span class="toc-number">6.3.2.</span> <span class="toc-text">例子：通过 INDEX 和 MATCH 查找指定员工的姓名</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-INDEX-%E5%92%8C-MATCH-%E7%9A%84%E4%BC%98%E7%82%B9"><span class="toc-number">6.4.</span> <span class="toc-text">4. INDEX 和 MATCH 的优点</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-%E6%80%BB%E7%BB%93-1"><span class="toc-number">6.5.</span> <span class="toc-text">5. 总结</span></a></li></ol></li></ol></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"></div><div id="footer-bar"><div class="footer-bar-links"><div class="footer-bar-left"><div id="footer-bar-tips"><div class="copyright">&copy;2024 By <a class="footer-bar-link" href="/" title="白开水船长" target="_blank">白开水船长</a></div></div><div id="footer-type-tips"></div></div><div class="footer-bar-right"><a class="footer-bar-link" target="_blank" rel="noopener" href="https://github.com/anzhiyu-c/hexo-theme-anzhiyu" title="主题">主题</a><a class="footer-bar-link cc" href="/copyright" title="cc协议"><i class="anzhiyufont anzhiyu-icon-copyright-line"></i><i class="anzhiyufont anzhiyu-icon-creative-commons-by-line"></i><i class="anzhiyufont anzhiyu-icon-creative-commons-nc-line"></i><i class="anzhiyufont anzhiyu-icon-creative-commons-nd-line"></i></a></div></div></div></footer></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="sidebar-site-data site-data is-center"><a href="/archives/" title="archive"><div class="headline">文章</div><div class="length-num">29</div></a><a href="/tags/" title="tag"><div class="headline">标签</div><div class="length-num">29</div></a><a href="/categories/" title="category"><div class="headline">分类</div><div class="length-num">6</div></a></div><span class="sidebar-menu-item-title">功能</span><div class="sidebar-menu-item"><a class="darkmode_switchbutton menu-child" href="javascript:void(0);" title="显示模式"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i><span>显示模式</span></a></div><div class="back-menu-list-groups"><div class="back-menu-list-group"><div class="back-menu-list-title">网页</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://blog.anheyu.com/" title="博客"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/favicon.ico" alt="博客"/><span class="back-menu-item-text">博客</span></a></div></div><div class="back-menu-list-group"><div class="back-menu-list-title">项目</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://image.anheyu.com/" title="安知鱼图床"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://image.anheyu.com/favicon.ico" alt="安知鱼图床"/><span class="back-menu-item-text">安知鱼图床</span></a></div></div></div><div class="menus_items"><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/categories/"><span> 分类</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/tags/"><span> 标签</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/archives/"><span> 归档</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/link/"><span> 友链</span></a></div></div><span class="sidebar-menu-item-title">标签</span><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/AI/" style="font-size: 0.88rem;">AI<sup>1</sup></a><a href="/tags/API/" style="font-size: 0.88rem;">API<sup>1</sup></a><a href="/tags/ChatGPT%EF%BC%8C%E5%B7%A5%E5%85%B7/" style="font-size: 0.88rem;">ChatGPT，工具<sup>1</sup></a><a href="/tags/Cloudflare/" style="font-size: 0.88rem;">Cloudflare<sup>1</sup></a><a href="/tags/Excel/" style="font-size: 0.88rem;">Excel<sup>1</sup></a><a href="/tags/Git/" style="font-size: 0.88rem;">Git<sup>1</sup></a><a href="/tags/Go/" style="font-size: 0.88rem;">Go<sup>1</sup></a><a href="/tags/Go%E5%9F%BA%E7%A1%80/" style="font-size: 0.88rem;">Go基础<sup>1</sup></a><a href="/tags/IDE/" style="font-size: 0.88rem;">IDE<sup>1</sup></a><a href="/tags/Java/" style="font-size: 0.88rem;">Java<sup>15</sup></a><a href="/tags/Java-%E5%85%B3%E9%94%AE%E5%AD%97/" style="font-size: 0.88rem;">Java 关键字<sup>5</sup></a><a href="/tags/Java-%E5%9F%BA%E7%A1%80/" style="font-size: 0.88rem;">Java 基础<sup>15</sup></a><a href="/tags/Linux/" style="font-size: 0.88rem;">Linux<sup>1</sup></a><a href="/tags/MySQL/" style="font-size: 0.88rem;">MySQL<sup>1</sup></a><a href="/tags/Python/" style="font-size: 0.88rem;">Python<sup>4</sup></a><a href="/tags/Python%E5%9F%BA%E7%A1%80/" style="font-size: 0.88rem;">Python基础<sup>1</sup></a><a href="/tags/Tableau/" style="font-size: 0.88rem;">Tableau<sup>1</sup></a><a href="/tags/Telegram/" style="font-size: 0.88rem;">Telegram<sup>1</sup></a><a href="/tags/idea/" style="font-size: 0.88rem;">idea<sup>1</sup></a><a href="/tags/%E5%9B%BE%E5%BA%8A/" style="font-size: 0.88rem;">图床<sup>1</sup></a><a href="/tags/%E5%B7%A5%E5%85%B7/" style="font-size: 0.88rem;">工具<sup>3</sup></a><a href="/tags/%E5%BC%80%E5%8F%91%E8%B8%A9%E5%9D%91/" style="font-size: 0.88rem;">开发踩坑<sup>1</sup></a><a href="/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/" style="font-size: 0.88rem;">数据分析<sup>2</sup></a><a href="/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/" style="font-size: 0.88rem;">数据库<sup>1</sup></a><a href="/tags/%E6%9C%8D%E5%8A%A1%E6%90%AD%E5%BB%BA/" style="font-size: 0.88rem;">服务搭建<sup>1</sup></a><a href="/tags/%E7%88%AC%E8%99%AB/" style="font-size: 0.88rem;">爬虫<sup>2</sup></a><a href="/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/" style="font-size: 0.88rem;">环境配置<sup>1</sup></a><a href="/tags/%E7%BC%96%E7%A8%8B/" style="font-size: 0.88rem;">编程<sup>18</sup></a><a href="/tags/%E8%B5%84%E6%BA%90%E6%95%B4%E7%90%86/" style="font-size: 0.88rem;">资源整理<sup>1</sup></a></div></div><hr/></div></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="anzhiyufont anzhiyu-icon-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="anzhiyufont anzhiyu-icon-gear"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="anzhiyufont anzhiyu-icon-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="anzhiyufont anzhiyu-icon-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div><div id="algolia-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><button class="search-close-button"><i class="anzhiyufont anzhiyu-icon-xmark"></i></button></nav><div class="search-wrap"><div id="algolia-search-input"></div><hr/><div id="algolia-search-results"><div id="algolia-hits"></div><div id="algolia-pagination"></div><div id="algolia-info"><div class="algolia-stats"></div><div class="algolia-poweredBy"></div></div></div></div></div><div id="search-mask"></div></div><div id="rightMenu"><div class="rightMenu-group rightMenu-small"><div class="rightMenu-item" id="menu-backward"><i class="anzhiyufont anzhiyu-icon-arrow-left"></i></div><div class="rightMenu-item" id="menu-forward"><i class="anzhiyufont anzhiyu-icon-arrow-right"></i></div><div class="rightMenu-item" id="menu-refresh"><i class="anzhiyufont anzhiyu-icon-arrow-rotate-right" style="font-size: 1rem;"></i></div><div class="rightMenu-item" id="menu-top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></div></div><div class="rightMenu-group rightMenu-line rightMenuPlugin"><div class="rightMenu-item" id="menu-copytext"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制选中文本</span></div><div class="rightMenu-item" id="menu-pastetext"><i class="anzhiyufont anzhiyu-icon-paste"></i><span>粘贴文本</span></div><a class="rightMenu-item" id="menu-commenttext"><i class="anzhiyufont anzhiyu-icon-comment-medical"></i><span>引用到评论</span></a><div class="rightMenu-item" id="menu-newwindow"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开</span></div><div class="rightMenu-item" id="menu-copylink"><i class="anzhiyufont anzhiyu-icon-link"></i><span>复制链接地址</span></div><div class="rightMenu-item" id="menu-copyimg"><i class="anzhiyufont anzhiyu-icon-images"></i><span>复制此图片</span></div><div class="rightMenu-item" id="menu-downloadimg"><i class="anzhiyufont anzhiyu-icon-download"></i><span>下载此图片</span></div><div class="rightMenu-item" id="menu-newwindowimg"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开图片</span></div><div class="rightMenu-item" id="menu-search"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>站内搜索</span></div><div class="rightMenu-item" id="menu-searchBaidu"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>百度搜索</span></div><div class="rightMenu-item" id="menu-music-toggle"><i class="anzhiyufont anzhiyu-icon-play"></i><span>播放音乐</span></div><div class="rightMenu-item" id="menu-music-back"><i class="anzhiyufont anzhiyu-icon-backward"></i><span>切换到上一首</span></div><div class="rightMenu-item" id="menu-music-forward"><i class="anzhiyufont anzhiyu-icon-forward"></i><span>切换到下一首</span></div><div class="rightMenu-item" id="menu-music-playlist" onclick="window.open(&quot;https://y.qq.com/n/ryqq/playlist/8802438608&quot;, &quot;_blank&quot;);" style="display: none;"><i class="anzhiyufont anzhiyu-icon-radio"></i><span>查看所有歌曲</span></div><div class="rightMenu-item" id="menu-music-copyMusicName"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制歌名</span></div></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item menu-link" id="menu-randomPost"><i class="anzhiyufont anzhiyu-icon-shuffle"></i><span>随便逛逛</span></a><a class="rightMenu-item menu-link" href="/categories/"><i class="anzhiyufont anzhiyu-icon-cube"></i><span>博客分类</span></a><a class="rightMenu-item menu-link" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags"></i><span>文章标签</span></a></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item" id="menu-copy" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制地址</span></a><a class="rightMenu-item" id="menu-commentBarrage" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-message"></i><span class="menu-commentBarrage-text">关闭热评</span></a><a class="rightMenu-item" id="menu-darkmode" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i><span class="menu-darkmode-text">深色模式</span></a><a class="rightMenu-item" id="menu-translate" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-language"></i><span>轉為繁體</span></a></div></div><div id="rightmenu-mask"></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.cbd.int/@fancyapps/ui@5.0.28/dist/fancybox/fancybox.umd.js"></script><script src="https://cdn.cbd.int/instant.page@5.2.0/instantpage.js" type="module"></script><script src="https://cdn.cbd.int/vanilla-lazyload@17.8.5/dist/lazyload.iife.min.js"></script><script src="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.js"></script><script>function panguFn () {
+  if (typeof pangu === 'object') pangu.autoSpacingPage()
+  else {
+    getScript('https://cdn.cbd.int/pangu@4.0.7/dist/browser/pangu.min.js')
+      .then(() => {
+        pangu.autoSpacingPage()
+      })
+  }
+}
+
+function panguInit () {
+  if (false){
+    GLOBAL_CONFIG_SITE.isPost && panguFn()
+  } else {
+    panguFn()
+  }
+}
+
+document.addEventListener('DOMContentLoaded', panguInit)</script><canvas id="universe"></canvas><script async src="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/dark/dark.js"></script><script async src="/anzhiyu/random.js"></script><script src="https://cdn.cbd.int/algoliasearch@4.18.0/dist/algoliasearch-lite.umd.js"></script><script src="https://cdn.cbd.int/instantsearch.js@4.60.0/dist/instantsearch.production.min.js"></script><script src="/js/search/algolia.js"></script><div class="js-pjax"><script>(() => {
+  const init = () => {
+    twikoo.init(Object.assign({
+      el: '#twikoo-wrap',
+      envId: 'https://myhexotwikoo.netlify.app/.netlify/functions/twikoo',
+      region: '',
+      onCommentLoaded: () => {
+        anzhiyu.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
+      }
+    }, null))
+  }
+
+  const loadTwikoo = () => {
+    if (typeof twikoo === 'object') setTimeout(runFn,0)
+    else getScript('https://cdn.cbd.int/twikoo@1.6.39/dist/twikoo.all.min.js').then(runFn)
+  }
+
+  const getCount = () => {
+    const countELement = document.getElementById('twikoo-count')
+    if(!countELement) return
+    twikoo.getCommentsCount({
+      envId: 'https://myhexotwikoo.netlify.app/.netlify/functions/twikoo',
+      region: '',
+      urls: [window.location.pathname],
+      includeReply: false
+    }).then(res => {
+      countELement.textContent = res[0].count
+    }).catch(err => {
+      console.error(err)
+    })
+  }
+
+  const runFn = () => {
+    init();
+    GLOBAL_CONFIG_SITE.isPost && getCount()
+  }
+
+  if ('Twikoo' === 'Twikoo' || !false) {
+    if (false) anzhiyu.loadComment(document.getElementById('twikoo-wrap'), loadTwikoo)
+    else {
+      loadTwikoo()
+    }
+  } else {
+    window.loadOtherComment = loadTwikoo
+  }
+})()</script><input type="hidden" name="page-type" id="page-type" value="post"></div><script>window.addEventListener('load', () => {
+  const changeContent = (content) => {
+    if (content === '') return content
+
+    content = content.replace(/<img.*?src="(.*?)"?[^\>]+>/ig, '[图片]') // replace image link
+    content = content.replace(/<a[^>]+?href=["']?([^"']+)["']?[^>]*>([^<]+)<\/a>/gi, '[链接]') // replace url
+    content = content.replace(/<pre><code>.*?<\/pre>/gi, '[代码]') // replace code
+    content = content.replace(/<[^>]+>/g,"") // remove html tag
+
+    if (content.length > 150) {
+      content = content.substring(0,150) + '...'
+    }
+    return content
+  }
+
+  const getComment = () => {
+    const runTwikoo = () => {
+      twikoo.getRecentComments({
+        envId: 'https://myhexotwikoo.netlify.app/.netlify/functions/twikoo',
+        region: '',
+        pageSize: 6,
+        includeReply: true
+      }).then(function (res) {
+        const twikooArray = res.map(e => {
+          return {
+            'content': changeContent(e.comment),
+            'avatar': e.avatar,
+            'nick': e.nick,
+            'url': e.url + '#' + e.id,
+            'date': new Date(e.created).toISOString()
+          }
+        })
+
+        saveToLocal.set('twikoo-newest-comments', JSON.stringify(twikooArray), 10/(60*24))
+        generateHtml(twikooArray)
+      }).catch(function (err) {
+        const $dom = document.querySelector('#card-newest-comments .aside-list')
+        $dom.textContent= "无法获取评论，请确认相关配置是否正确"
+      })
+    }
+
+    if (typeof twikoo === 'object') {
+      runTwikoo()
+    } else {
+      getScript('https://cdn.cbd.int/twikoo@1.6.39/dist/twikoo.all.min.js').then(runTwikoo)
+    }
+  }
+
+  const generateHtml = array => {
+    let result = ''
+
+    if (array.length) {
+      for (let i = 0; i < array.length; i++) {
+        result += '<div class=\'aside-list-item\'>'
+
+        if (true) {
+          const name = 'data-lazy-src'
+          result += `<a href='${array[i].url}' class='thumbnail'><img ${name}='${array[i].avatar}' alt='${array[i].nick}'><div class='name'><span>${array[i].nick} </span></div></a>`
+        }
+        
+        result += `<div class='content'>
+        <a class='comment' href='${array[i].url}' title='${array[i].content}'>${array[i].content}</a>
+        <time datetime="${array[i].date}">${anzhiyu.diffDate(array[i].date, true)}</time></div>
+        </div>`
+      }
+    } else {
+      result += '没有评论'
+    }
+
+    let $dom = document.querySelector('#card-newest-comments .aside-list')
+    $dom && ($dom.innerHTML= result)
+    window.lazyLoadInstance && window.lazyLoadInstance.update()
+    window.pjax && window.pjax.refresh($dom)
+  }
+
+  const newestCommentInit = () => {
+    if (document.querySelector('#card-newest-comments .aside-list')) {
+      const data = saveToLocal.get('twikoo-newest-comments')
+      if (data) {
+        generateHtml(JSON.parse(data))
+      } else {
+        getComment()
+      }
+    }
+  }
+
+  newestCommentInit()
+  document.addEventListener('pjax:complete', newestCommentInit)
+})</script><script>var visitorMail = "";
+</script><script async data-pjax src="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/waterfall/waterfall.js"></script><script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/qrcodejs/1.0.0/qrcode.min.js"></script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.9/icon/ali_iconfont_css.css"><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/aplayer/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.cbd.int/anzhiyu-blog-static@1.0.1/js/APlayer.min.js"></script><script src="https://cdn.cbd.int/hexo-anzhiyu-music@1.0.1/assets/js/Meting2.min.js"></script><script src="https://cdn.cbd.int/pjax@0.2.8/pjax.min.js"></script><script>let pjaxSelectors = ["meta[property=\"og:image\"]","meta[property=\"og:title\"]","meta[property=\"og:url\"]","meta[property=\"og:type\"]","meta[property=\"og:site_name\"]","meta[property=\"og:description\"]","head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+  // removeEventListener scroll 
+  anzhiyu.removeGlobalFnEvent('pjax')
+  anzhiyu.removeGlobalFnEvent('themeChange')
+
+  document.getElementById('rightside').classList.remove('rightside-show')
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+})
+
+document.addEventListener('pjax:error', e => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script charset="UTF-8" src="https://cdn.cbd.int/anzhiyu-theme-static@1.1.5/accesskey/accesskey.js"></script></div><div id="popup-window"><div class="popup-window-title">通知</div><div class="popup-window-divider"></div><div class="popup-window-content"><div class="popup-tip">你好呀</div><div class="popup-link"><i class="anzhiyufont anzhiyu-icon-arrow-circle-right"></i></div></div></div></body></html>
